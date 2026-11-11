@@ -19,13 +19,18 @@ async function check(url) {
   }
 }
 
-let bad = 0;
+let bad = 0, unreachable = 0;
 const queue = [...urls];
 await Promise.all(Array.from({ length: 8 }, async () => {
   while (queue.length) {
     const [name, kind, url] = queue.shift();
     const s = await check(url);
+    if (s === 'error' || s === 'timeout') unreachable++;
     if (s === 404 || s === 'error' || s === 'timeout' || (typeof s === 'number' && s >= 500)) { bad++; console.log(`✗ ${name} (${kind}): ${s} ${url}`); }
   }
 }));
+if (unreachable === urls.length) {
+  console.log('\nEvery link failed to connect, so this computer probably has no internet access (or a firewall is blocking it). Nothing was actually checked.');
+  process.exit(2);
+}
 console.log(`\nChecked ${urls.length} links, ${bad} problem${bad === 1 ? '' : 's'}. Some shops block automated checks (403); open those by hand.`);
