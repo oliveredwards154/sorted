@@ -24,6 +24,9 @@ try { state.picks = JSON.parse(sessionStorage.getItem('sorted.picks') || '{}'); 
 const savePicks = () => { try { sessionStorage.setItem('sorted.picks', JSON.stringify(state.picks)); } catch { /* ignore */ } };
 
 const SWATCH = { Navy: '#24304a', Black: '#1a1a1c', Grey: '#9c9da0', White: '#f3f3f0', Cream: '#e8e1d1', Stone: '#cbbf9f', Tan: '#a57a4b', Brown: '#6e4b31', Olive: '#5d6244', 'Light blue': '#bccde0', Burgundy: '#6a2632' };
+// The ASA/CAP rules want affiliate links labelled where they appear, not only in the footer.
+const AD = '<span class="adpill" title="We may earn a commission if you buy">Ad</span>';
+const AD_NOTE = '<p class="adnote">Shop links marked <b>Ad</b> are affiliate links: we may earn a commission if you buy. The price you pay is the same.</p>';
 const TIERS = { '£': 'Under £40', '££': '£40–£100', '£££': '£100+' };
 const CAT_IMG = { Shirt: 'shirt-0', 'T-shirt': 'tee-1', Jumper: 'knit-0', Jacket: 'jacket-0', Trousers: 'trousers-0', Shoes: 'shoes-0' };
 const ICON = {
@@ -332,14 +335,14 @@ async function results(params) {
           <button class="heart" data-fav="${esc(p.id)}" aria-label="${fav ? 'Remove from' : 'Save to'} wardrobe">${ICON.heart(fav)}</button></div>
         <div class="row"><h3>${esc(p.name)}</h3>${p.price ? `<span class="price">£${p.price.toFixed(2)}</span>` : (p.tier ? `<span class="price">${p.tier}</span>` : '')}</div>
         <div class="meta">${[scores ? Math.round(scores[p.id] * 100) + '% match' : '', p.brand, p.tier && !preview ? TIERS[p.tier] : '', p.inStock ? '' : 'Out of stock'].filter(Boolean).map(esc).join(' · ') || (p.preview ? 'Example item' : '')}</div>
-        ${preview ? '' : `<a class="btn block" href="/go/p/${encodeURIComponent(p.id)}?o=${encodeURIComponent(occId)}" target="_blank" rel="sponsored noopener">Shop at ${esc(p.brand || 'the shop')} ↗</a>`}
+        ${preview ? '' : `<a class="btn block" href="/go/p/${encodeURIComponent(p.id)}?o=${encodeURIComponent(occId)}" target="_blank" rel="sponsored noopener">Shop at ${esc(p.brand || 'the shop')} ↗ ${AD}</a>`}
       </article>`;
     }).join('');
     const shopsList = preview && data.shops?.length ? `<div class="stack" style="gap:14px;margin-top:40px">
-      <h2 class="label">Where to buy ${esc(text.toLowerCase() || category.toLowerCase())}<span>£ to £££</span></h2>
-      <div class="tiers">${['£', '££', '£££'].map((t) => { const s = data.shops.filter((b) => b.tier === t); return s.length ? `<div>${s.slice(0, 4).map((b) => `<a class="shop" href="/go/b/${b.id}?o=${encodeURIComponent(occId)}" target="_blank" rel="sponsored noopener"><b>${esc(b.name)}<span aria-hidden="true">↗</span></b><span>${esc(b.notes)}</span></a>`).join('')}</div>` : ''; }).join('')}</div></div>` : '';
+      <h2 class="label">Where to buy ${esc(text.toLowerCase() || category.toLowerCase())}<span>£ to £££</span></h2>${AD_NOTE}
+      <div class="tiers">${['£', '££', '£££'].map((t) => { const s = data.shops.filter((b) => b.tier === t); return s.length ? `<div>${s.slice(0, 4).map((b) => `<a class="shop" href="/go/b/${b.id}?o=${encodeURIComponent(occId)}" target="_blank" rel="sponsored noopener"><b>${esc(b.name)}<span aria-hidden="true">↗</span> ${AD}</b><span>${esc(b.notes)}</span></a>`).join('')}</div>` : ''; }).join('')}</div></div>` : '';
     const previewNote = preview ? `<div class="notice"><span class="dot">i</span><span><strong>Preview catalogue</strong><span class="muted small">These are example items to show how matching works. Once partner product feeds are connected, real products, prices and buy links appear here.</span></span></div>` : '';
-    document.getElementById('res').innerHTML = `<div class="stack" style="gap:24px">${previewNote}${filters}${list.length ? `<div class="cards">${cards}</div>` : '<p class="empty">Nothing at that price yet. Try another.</p>'}${shopsList}</div>`;
+    document.getElementById('res').innerHTML = `<div class="stack" style="gap:24px">${previewNote}${filters}${list.length ? `${preview ? '' : AD_NOTE}<div class="cards">${cards}</div>` : '<p class="empty">Nothing at that price yet. Try another.</p>'}${shopsList}</div>`;
     document.querySelectorAll('[data-fav]').forEach((b) => b.addEventListener('click', () => {
       const p = list.find((x) => x.id === b.dataset.fav);
       const on = store.toggle('finds', { id: p.id, name: p.name, image: p.image, brand: p.brand, price: p.price, tier: p.tier, preview: p.preview });
@@ -376,9 +379,9 @@ async function shops() {
   main.innerHTML = `<section class="section"><div class="head"><div class="eyebrow">Where we look</div><h1>Shops, by budget</h1>
     <p class="lede">We search UK menswear shops at three price levels. When you buy through our links we may earn a commission; the price you pay is the same.</p></div><div id="shopList"><p class="empty">Loading shops…</p></div></section>`;
   const list = await api('/api/brands').catch(() => []);
-  document.getElementById('shopList').innerHTML = `<div class="tiers">${['£', '££', '£££'].map((t) => `<div>
+  document.getElementById('shopList').innerHTML = `${AD_NOTE}<div class="tiers">${['£', '££', '£££'].map((t) => `<div>
     <h2 class="label">${t}<span>${TIERS[t]}</span></h2>
-    ${list.filter((b) => b.tier === t).sort((a, b) => a.name.localeCompare(b.name)).map((b) => `<a class="shop" href="/go/b/${b.id}" target="_blank" rel="sponsored noopener"><b>${esc(b.name)}<span aria-hidden="true">↗</span></b><span>${esc(b.notes)}</span></a>`).join('')}
+    ${list.filter((b) => b.tier === t).sort((a, b) => a.name.localeCompare(b.name)).map((b) => `<a class="shop" href="/go/b/${b.id}" target="_blank" rel="sponsored noopener"><b>${esc(b.name)}<span aria-hidden="true">↗</span> ${AD}</b><span>${esc(b.notes)}</span></a>`).join('')}
   </div>`).join('')}</div>`;
 }
 
@@ -388,10 +391,10 @@ function wardrobe() {
   const w = store.load();
   const block = (title, items, emptyText, render) => `<div class="stack" style="gap:16px"><h2 class="label">${title}<span>${items.length}</span></h2>${items.length ? `<div class="cards">${items.map(render).join('')}</div>` : `<p class="empty" style="padding:0">${emptyText}</p>`}</div>`;
   main.innerHTML = `<section class="section">
-    <div class="head"><div class="eyebrow">Saved on this device</div><h1>Your wardrobe</h1><p class="lede">Everything here is stored in this browser only.</p></div>
+    <div class="head"><div class="eyebrow">Saved on this device</div><h1>Your wardrobe</h1><p class="lede">Everything here is stored in this browser only.</p>${w.finds.some((f) => !f.preview) ? AD_NOTE : ''}</div>
     ${block('Saved styles', w.styles, 'No styles yet. Pick an occasion and play the rounds.', (s) => `<a class="card" href="/occasion/${esc(s.occasion)}/style" data-link data-style="${esc(s.id)}" style="text-decoration:none"><div class="photo"><img src="${esc(s.image)}" alt=""></div><h3>${esc(s.name)}</h3></a>`)}
     ${block('Your clothes', w.clothes, 'Nothing uploaded yet. Pieces you search from land here.', (c) => `<a class="card" style="text-decoration:none" data-link href="${esc(resultsUrl({ category: c.category, text: c.name, colour: c.colour }))}"><div class="photo"><img src="${esc(c.image)}" alt="${esc(c.name)}"></div><h3>${esc(c.name)}</h3><div class="meta">${esc(c.occasion || '')}</div></a>`)}
-    ${block('Saved finds', w.finds, 'Nothing saved yet. Tap the heart on any match.', (f) => `<div class="card"><div class="photo"><img src="${esc(imgSrc(f.image))}" alt=""></div><div class="row"><h3>${esc(f.name)}</h3><span class="price">${f.price ? '£' + f.price.toFixed(2) : esc(f.tier || '')}</span></div><div class="meta">${esc(f.brand || (f.preview ? 'Example item' : ''))}</div>${f.preview ? '' : `<a class="btn ghost block" href="/go/p/${encodeURIComponent(f.id)}" target="_blank" rel="sponsored noopener">Shop ↗</a>`}</div>`)}
+    ${block('Saved finds', w.finds, 'Nothing saved yet. Tap the heart on any match.', (f) => `<div class="card"><div class="photo"><img src="${esc(imgSrc(f.image))}" alt=""></div><div class="row"><h3>${esc(f.name)}</h3><span class="price">${f.price ? '£' + f.price.toFixed(2) : esc(f.tier || '')}</span></div><div class="meta">${esc(f.brand || (f.preview ? 'Example item' : ''))}</div>${f.preview ? '' : `<a class="btn ghost block" href="/go/p/${encodeURIComponent(f.id)}" target="_blank" rel="sponsored noopener">Shop ↗ ${AD}</a>`}</div>`)}
     ${store.count(w) ? '<button class="linkbtn" id="clear">Clear my wardrobe</button>' : ''}
   </section>`;
   main.querySelectorAll('[data-style]').forEach((a) => a.addEventListener('click', () => {

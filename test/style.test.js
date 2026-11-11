@@ -54,3 +54,11 @@ test('visual fingerprint: identical images match best', () => {
   assert.ok(similarity(navy, navy2) > similarity(navy, tan));
   assert.ok(similarity(navy, navy) > 0.99);
 });
+
+test('every affiliate link in the app carries an Ad label (ASA/CAP)', async () => {
+  const { readFileSync } = await import('node:fs');
+  const src = readFileSync(new URL('../public/js/app.js', import.meta.url), 'utf8');
+  const links = src.match(/rel="sponsored noopener">[\s\S]*?<\/a>/g) || [];
+  assert.ok(links.length >= 4);
+  for (const l of links) assert.match(l, /\$\{AD\}/, l.slice(0, 80));
+});
