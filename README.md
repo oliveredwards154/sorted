@@ -37,7 +37,7 @@ It works with no settings at all: you get the full flow with a preview catalogue
 ## Going live
 
 1. [docs/DEPLOY.md](docs/DEPLOY.md) – put it on a domain (Railway or Render).
-2. [docs/PARTNERS.md](docs/PARTNERS.md) – join the networks, record approvals, connect product feeds.
+2. [docs/PARTNERS.md](docs/PARTNERS.md) – join the networks, record approvals, connect product feeds. [docs/APPLICATIONS.md](docs/APPLICATIONS.md) has ready answers for the sign-up forms.
 3. Fill in the placeholders in `public/privacy.html` and `public/about.html` (company name, number, address, contact email).
 
 Useful commands once partners are connected:
