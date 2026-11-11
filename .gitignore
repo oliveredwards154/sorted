@@ -1,0 +1,11 @@
+node_modules/
+.env
+.env.*
+!.env.example
+data/catalogue.json
+data/catalogue.json.tmp
+data/clicks.log
+*.log
+.DS_Store
+.vscode/
+.idea/

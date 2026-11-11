@@ -1,0 +1,935 @@
+[
+ {
+  "id": "pub",
+  "name": "Pub",
+  "lower": "pub",
+  "phrase": "to the pub",
+  "blurb": "A Friday pint. Nothing try-hard.",
+  "looks": [
+   {
+    "id": "pub-a",
+    "image": "/images/looks/pub-a.jpg",
+    "name": "Brown Overshirt",
+    "alt": "Man in a dark brown overshirt, white T-shirt, light grey trousers and white trainers",
+    "line": "A dark brown overshirt worn open over a white tee. Relaxed, tidy, made for a beer garden.",
+    "pieces": [
+     {
+      "part": "Layer",
+      "name": "Dark brown overshirt",
+      "category": "Jacket"
+     },
+     {
+      "part": "Under",
+      "name": "White crew-neck T-shirt",
+      "category": "T-shirt"
+     },
+     {
+      "part": "Bottoms",
+      "name": "Light grey trousers",
+      "category": "Trousers"
+     },
+     {
+      "part": "Shoes",
+      "name": "White leather trainers",
+      "category": "Shoes"
+     }
+    ]
+   },
+   {
+    "id": "pub-b",
+    "image": "/images/looks/pub-b.jpg",
+    "name": "Rust Cable Knit",
+    "alt": "Man in a rust cable-knit jumper and blue jeans",
+    "line": "One good jumper does all the work. Cosy enough for a country pub with a fire.",
+    "pieces": [
+     {
+      "part": "Knit",
+      "name": "Rust cable-knit jumper",
+      "category": "Jumper"
+     },
+     {
+      "part": "Bottoms",
+      "name": "Mid-wash jeans",
+      "category": "Trousers"
+     },
+     {
+      "part": "Shoes",
+      "name": "Brown leather boots",
+      "category": "Shoes"
+     }
+    ]
+   },
+   {
+    "id": "pub-c",
+    "image": "/images/looks/pub-c.jpg",
+    "name": "Stone Shirt",
+    "alt": "Man at a bar in a stone-coloured shirt and light jeans",
+    "line": "A stone-coloured shirt worn loose over light jeans. Easy and clean, fits any local.",
+    "pieces": [
+     {
+      "part": "Shirt",
+      "name": "Stone cotton overshirt",
+      "category": "Shirt"
+     },
+     {
+      "part": "Bottoms",
+      "name": "Light-wash jeans",
+      "category": "Trousers"
+     }
+    ]
+   },
+   {
+    "id": "pub-e",
+    "image": "/images/looks/pub-e.jpg",
+    "name": "Flat Cap & Tweed",
+    "alt": "Man in a flat cap, tweed jacket and waistcoat, grey trousers and brown boots",
+    "line": "Tweed, a waistcoat and a flat cap. Full country pub, if you are brave enough.",
+    "pieces": [
+     {
+      "part": "Jacket",
+      "name": "Tweed jacket and waistcoat",
+      "category": "Jacket"
+     },
+     {
+      "part": "Bottoms",
+      "name": "Grey wool trousers",
+      "category": "Trousers"
+     },
+     {
+      "part": "Shoes",
+      "name": "Brown leather boots",
+      "category": "Shoes"
+     }
+    ]
+   },
+   {
+    "id": "pub-d",
+    "image": "/images/looks/pub-d.jpg",
+    "name": "Chambray Overshirt",
+    "alt": "Smiling man in a grey chambray overshirt holding a pint",
+    "line": "A washed chambray shirt worn open over a tee. Relaxed enough for a long session.",
+    "pieces": [
+     {
+      "part": "Shirt",
+      "name": "Grey chambray overshirt",
+      "category": "Shirt"
+     },
+     {
+      "part": "Under",
+      "name": "White crew-neck T-shirt",
+      "category": "T-shirt"
+     },
+     {
+      "part": "Bottoms",
+      "name": "Mid-wash jeans",
+      "category": "Trousers"
+     }
+    ]
+   },
+   {
+    "id": "pub-f",
+    "image": "/images/looks/pub-f.jpg",
+    "name": "Charcoal Shacket",
+    "alt": "Man in a charcoal shirt-jacket, dark jeans and black trainers",
+    "line": "Charcoal shacket, dark jeans, black trainers. Low effort, still looks sorted.",
+    "pieces": [
+     {
+      "part": "Jacket",
+      "name": "Charcoal shirt-jacket",
+      "category": "Jacket"
+     },
+     {
+      "part": "Bottoms",
+      "name": "Dark-wash jeans",
+      "category": "Trousers"
+     },
+     {
+      "part": "Shoes",
+      "name": "Black trainers",
+      "category": "Shoes"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "wedding",
+  "name": "Wedding",
+  "lower": "wedding",
+  "phrase": "to weddings",
+  "blurb": "Guest, not groom. Sharp, not showy.",
+  "looks": [
+   {
+    "id": "wed-a",
+    "image": "/images/looks/wed-a.jpg",
+    "name": "Bright Blue Three-Piece",
+    "alt": "Man in a bright blue three-piece suit with a white shirt and buttonhole flower",
+    "line": "A blue three-piece with a white shirt and pale tie. Stands out without upstaging the groom.",
+    "pieces": [
+     {
+      "part": "Suit",
+      "name": "Blue three-piece suit",
+      "category": "Jacket"
+     },
+     {
+      "part": "Shirt",
+      "name": "White formal shirt",
+      "category": "Shirt"
+     },
+     {
+      "part": "Shoes",
+      "name": "Dark brown Oxfords",
+      "category": "Shoes"
+     }
+    ]
+   },
+   {
+    "id": "wed-b",
+    "image": "/images/looks/wed-b.jpg",
+    "name": "Grey Check Three-Piece",
+    "alt": "Man in a grey check three-piece suit and brown brogues on stone steps",
+    "line": "Grey check, brown tie, brown brogues. The classic British wedding guest.",
+    "pieces": [
+     {
+      "part": "Suit",
+      "name": "Grey check three-piece suit",
+      "category": "Jacket"
+     },
+     {
+      "part": "Shirt",
+      "name": "White formal shirt",
+      "category": "Shirt"
+     },
+     {
+      "part": "Shoes",
+      "name": "Brown brogues",
+      "category": "Shoes"
+     }
+    ]
+   },
+   {
+    "id": "wed-c",
+    "image": "/images/looks/wed-c.jpg",
+    "name": "Navy, No Tie",
+    "alt": "Man in a navy suit and open white shirt",
+    "line": "Navy suit, crisp white shirt, no tie. Made for a relaxed reception.",
+    "pieces": [
+     {
+      "part": "Suit",
+      "name": "Navy two-piece suit",
+      "category": "Jacket"
+     },
+     {
+      "part": "Shirt",
+      "name": "White shirt, open collar",
+      "category": "Shirt"
+     },
+     {
+      "part": "Shoes",
+      "name": "Black Oxfords",
+      "category": "Shoes"
+     }
+    ]
+   },
+   {
+    "id": "wed-d",
+    "image": "/images/looks/wed-d.jpg",
+    "name": "Charcoal & Red Tie",
+    "alt": "Man in a charcoal check suit with a red tie",
+    "line": "A charcoal check suit lifted with a red tie. Traditional, with a flash of colour.",
+    "pieces": [
+     {
+      "part": "Suit",
+      "name": "Charcoal check suit",
+      "category": "Jacket"
+     },
+     {
+      "part": "Shirt",
+      "name": "White formal shirt",
+      "category": "Shirt"
+     },
+     {
+      "part": "Shoes",
+      "name": "Black Derbies",
+      "category": "Shoes"
+     }
+    ]
+   },
+   {
+    "id": "wed-e",
+    "image": "/images/looks/wed-e.jpg",
+    "name": "Navy Suit & Trainers",
+    "alt": "Man in a navy suit and striped tie with white trainers on a lawn",
+    "line": "Sharp navy suit and striped tie, finished with clean white trainers. The modern wedding.",
+    "pieces": [
+     {
+      "part": "Suit",
+      "name": "Navy suit",
+      "category": "Jacket"
+     },
+     {
+      "part": "Shirt",
+      "name": "White formal shirt",
+      "category": "Shirt"
+     },
+     {
+      "part": "Shoes",
+      "name": "White leather trainers",
+      "category": "Shoes"
+     }
+    ]
+   },
+   {
+    "id": "wed-f",
+    "image": "/images/looks/wed-f.jpg",
+    "name": "Beach Wedding Blazer",
+    "alt": "Man in a navy blazer and open white shirt with a buttonhole flower by the sea",
+    "line": "Navy blazer, open white shirt, flower in the lapel. Made for a wedding by the sea.",
+    "pieces": [
+     {
+      "part": "Jacket",
+      "name": "Navy blazer",
+      "category": "Jacket"
+     },
+     {
+      "part": "Shirt",
+      "name": "White linen shirt",
+      "category": "Shirt"
+     },
+     {
+      "part": "Shoes",
+      "name": "Suede loafers",
+      "category": "Shoes"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "interview",
+  "name": "Job interview",
+  "lower": "interview",
+  "phrase": "to interviews",
+  "blurb": "Look hired before you say a word.",
+  "looks": [
+   {
+    "id": "int-a",
+    "image": "/images/looks/int-a.jpg",
+    "name": "The Dark Suit",
+    "alt": "Man in a black suit, white shirt and tie",
+    "line": "Dark suit, white shirt, simple tie. For banks, law and anywhere formal.",
+    "pieces": [
+     {
+      "part": "Suit",
+      "name": "Black two-piece suit",
+      "category": "Jacket"
+     },
+     {
+      "part": "Shirt",
+      "name": "White formal shirt",
+      "category": "Shirt"
+     },
+     {
+      "part": "Shoes",
+      "name": "Black Oxfords",
+      "category": "Shoes"
+     }
+    ]
+   },
+   {
+    "id": "int-b",
+    "image": "/images/looks/int-b.jpg",
+    "name": "Blazer & Jeans",
+    "alt": "Man in a grey blazer, open white shirt and blue jeans",
+    "line": "Grey blazer, open-collar white shirt, good jeans. For start-ups and creative roles.",
+    "pieces": [
+     {
+      "part": "Jacket",
+      "name": "Grey blazer",
+      "category": "Jacket"
+     },
+     {
+      "part": "Shirt",
+      "name": "White Oxford shirt",
+      "category": "Shirt"
+     },
+     {
+      "part": "Bottoms",
+      "name": "Mid-wash jeans",
+      "category": "Trousers"
+     }
+    ]
+   },
+   {
+    "id": "int-c",
+    "image": "/images/looks/int-c.jpg",
+    "name": "Navy & Pocket Square",
+    "alt": "Man in a navy suit, open white shirt and white pocket square",
+    "line": "Navy suit, open collar, white pocket square. Confident but approachable.",
+    "pieces": [
+     {
+      "part": "Suit",
+      "name": "Navy suit",
+      "category": "Jacket"
+     },
+     {
+      "part": "Shirt",
+      "name": "White formal shirt",
+      "category": "Shirt"
+     },
+     {
+      "part": "Shoes",
+      "name": "Brown Derbies",
+      "category": "Shoes"
+     }
+    ]
+   },
+   {
+    "id": "int-d",
+    "image": "/images/looks/int-d.jpg",
+    "name": "Tweed & Knit Tie",
+    "alt": "Man in a grey tweed blazer, white shirt and black knitted tie",
+    "line": "Grey tweed blazer, white shirt, slim black knit tie. Smart, with personality.",
+    "pieces": [
+     {
+      "part": "Jacket",
+      "name": "Grey tweed blazer",
+      "category": "Jacket"
+     },
+     {
+      "part": "Shirt",
+      "name": "White Oxford shirt",
+      "category": "Shirt"
+     },
+     {
+      "part": "Bottoms",
+      "name": "Black trousers",
+      "category": "Trousers"
+     }
+    ]
+   },
+   {
+    "id": "int-e",
+    "image": "/images/looks/int-e.jpg",
+    "name": "Navy Suit & Tie",
+    "alt": "Man in a navy suit, white shirt and dark tie",
+    "line": "The classic: navy suit, white shirt, dark tie. Never the wrong answer.",
+    "pieces": [
+     {
+      "part": "Suit",
+      "name": "Navy suit",
+      "category": "Jacket"
+     },
+     {
+      "part": "Shirt",
+      "name": "White formal shirt",
+      "category": "Shirt"
+     },
+     {
+      "part": "Shoes",
+      "name": "Black Oxfords",
+      "category": "Shoes"
+     }
+    ]
+   },
+   {
+    "id": "int-f",
+    "image": "/images/looks/int-f.jpg",
+    "name": "Shirt & Tie, No Jacket",
+    "alt": "Man in a light blue check shirt, tie and black trousers",
+    "line": "Check shirt, tie, smart trousers. For warm days or less formal firms.",
+    "pieces": [
+     {
+      "part": "Shirt",
+      "name": "Light blue check shirt",
+      "category": "Shirt"
+     },
+     {
+      "part": "Bottoms",
+      "name": "Black trousers",
+      "category": "Trousers"
+     },
+     {
+      "part": "Shoes",
+      "name": "Black Derbies",
+      "category": "Shoes"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "casual",
+  "name": "Casual weekend",
+  "lower": "weekend",
+  "phrase": "at the weekend",
+  "blurb": "Coffee, errands, a walk in the park.",
+  "looks": [
+   {
+    "id": "cas-a",
+    "image": "/images/looks/cas-a.jpg",
+    "name": "Double Denim",
+    "alt": "Man in a denim shirt-jacket, white T-shirt, ripped jeans and a beanie",
+    "line": "A denim shirt-jacket over a white tee. The easiest weekend uniform there is.",
+    "pieces": [
+     {
+      "part": "Layer",
+      "name": "Denim shirt-jacket",
+      "category": "Shirt"
+     },
+     {
+      "part": "Under",
+      "name": "White V-neck T-shirt",
+      "category": "T-shirt"
+     },
+     {
+      "part": "Bottoms",
+      "name": "Ripped slim jeans",
+      "category": "Trousers"
+     },
+     {
+      "part": "Shoes",
+      "name": "Black leather boots",
+      "category": "Shoes"
+     }
+    ]
+   },
+   {
+    "id": "cas-b",
+    "image": "/images/looks/cas-b.jpg",
+    "name": "White Tee & Jeans",
+    "alt": "Man in a white T-shirt, light jeans and trainers, jacket in hand",
+    "line": "Plain white tee, light jeans, trainers. Nothing to think about, always works.",
+    "pieces": [
+     {
+      "part": "Top",
+      "name": "White V-neck T-shirt",
+      "category": "T-shirt"
+     },
+     {
+      "part": "Bottoms",
+      "name": "Light-wash jeans",
+      "category": "Trousers"
+     },
+     {
+      "part": "Shoes",
+      "name": "Black and white trainers",
+      "category": "Shoes"
+     }
+    ]
+   },
+   {
+    "id": "cas-c",
+    "image": "/images/looks/cas-c.jpg",
+    "name": "Yellow Tee & Leather",
+    "alt": "Man in a black leather jacket, yellow T-shirt, jeans and tan boots",
+    "line": "A pop of yellow under black leather. A weekend with a bit of attitude.",
+    "pieces": [
+     {
+      "part": "Jacket",
+      "name": "Black leather jacket",
+      "category": "Jacket"
+     },
+     {
+      "part": "Top",
+      "name": "Yellow T-shirt",
+      "category": "T-shirt"
+     },
+     {
+      "part": "Bottoms",
+      "name": "Mid-wash jeans",
+      "category": "Trousers"
+     },
+     {
+      "part": "Shoes",
+      "name": "Tan suede boots",
+      "category": "Shoes"
+     }
+    ]
+   },
+   {
+    "id": "cas-d",
+    "image": "/images/looks/cas-d.jpg",
+    "name": "Cable Knit & Beanie",
+    "alt": "Man in a navy cable-knit jumper and beanie in a field",
+    "line": "Chunky navy cable knit and a beanie. For long walks and cold mornings.",
+    "pieces": [
+     {
+      "part": "Knit",
+      "name": "Navy cable-knit jumper",
+      "category": "Jumper"
+     },
+     {
+      "part": "Bottoms",
+      "name": "Dark-wash jeans",
+      "category": "Trousers"
+     },
+     {
+      "part": "Shoes",
+      "name": "Brown leather boots",
+      "category": "Shoes"
+     }
+    ]
+   },
+   {
+    "id": "cas-e",
+    "image": "/images/looks/cas-e.jpg",
+    "name": "Grey Tee, Black Jeans",
+    "alt": "Man in a grey T-shirt, black jeans and black trainers",
+    "line": "Grey tee, black jeans, black trainers. Simple and city-ready.",
+    "pieces": [
+     {
+      "part": "Top",
+      "name": "Grey crew-neck T-shirt",
+      "category": "T-shirt"
+     },
+     {
+      "part": "Bottoms",
+      "name": "Black slim jeans",
+      "category": "Trousers"
+     },
+     {
+      "part": "Shoes",
+      "name": "Black trainers",
+      "category": "Shoes"
+     }
+    ]
+   },
+   {
+    "id": "cas-f",
+    "image": "/images/looks/cas-f.jpg",
+    "name": "Check Overshirt",
+    "alt": "Man in a grey check overshirt and blue jeans",
+    "line": "A soft check overshirt with good jeans. Smart enough for brunch.",
+    "pieces": [
+     {
+      "part": "Shirt",
+      "name": "Grey check overshirt",
+      "category": "Shirt"
+     },
+     {
+      "part": "Bottoms",
+      "name": "Mid-wash jeans",
+      "category": "Trousers"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "date",
+  "name": "First date",
+  "lower": "date",
+  "phrase": "on dates",
+  "blurb": "Effort, but not too much effort.",
+  "looks": [
+   {
+    "id": "date-a",
+    "image": "/images/looks/date-a.jpg",
+    "name": "Leather Jacket",
+    "alt": "Man in a black leather jacket, black top, faded jeans and boots on a wet street at night",
+    "line": "Black leather over a black top, faded jeans, boots. Confident with a bit of edge.",
+    "pieces": [
+     {
+      "part": "Layer",
+      "name": "Black leather biker jacket",
+      "category": "Jacket"
+     },
+     {
+      "part": "Top",
+      "name": "Black T-shirt",
+      "category": "T-shirt"
+     },
+     {
+      "part": "Bottoms",
+      "name": "Faded straight jeans",
+      "category": "Trousers"
+     },
+     {
+      "part": "Shoes",
+      "name": "Black Chelsea boots",
+      "category": "Shoes"
+     }
+    ]
+   },
+   {
+    "id": "date-b",
+    "image": "/images/looks/date-b.jpg",
+    "name": "Camel Coat",
+    "alt": "Man in a camel overcoat over black clothes with tan suede boots",
+    "line": "A camel overcoat over all black, tan suede boots. Polished without trying too hard.",
+    "pieces": [
+     {
+      "part": "Coat",
+      "name": "Camel overcoat",
+      "category": "Jacket"
+     },
+     {
+      "part": "Knit",
+      "name": "Black fine-knit jumper",
+      "category": "Jumper"
+     },
+     {
+      "part": "Bottoms",
+      "name": "Black slim jeans",
+      "category": "Trousers"
+     },
+     {
+      "part": "Shoes",
+      "name": "Tan suede boots",
+      "category": "Shoes"
+     }
+    ]
+   },
+   {
+    "id": "date-c",
+    "image": "/images/looks/date-c.jpg",
+    "name": "All-Black Polo",
+    "alt": "Man in a black polo shirt, black trousers and trainers",
+    "line": "Black polo, black trousers, trainers. Clean, minimal, quietly confident.",
+    "pieces": [
+     {
+      "part": "Top",
+      "name": "Black knitted polo",
+      "category": "T-shirt"
+     },
+     {
+      "part": "Bottoms",
+      "name": "Black relaxed trousers",
+      "category": "Trousers"
+     },
+     {
+      "part": "Shoes",
+      "name": "Black and white trainers",
+      "category": "Shoes"
+     }
+    ]
+   },
+   {
+    "id": "date-d",
+    "image": "/images/looks/date-d.jpg",
+    "name": "Black & White",
+    "alt": "Man in a black blazer, white shirt and white trousers",
+    "line": "Black blazer over white on white. Bold, made for a rooftop bar.",
+    "pieces": [
+     {
+      "part": "Jacket",
+      "name": "Black blazer",
+      "category": "Jacket"
+     },
+     {
+      "part": "Shirt",
+      "name": "White shirt",
+      "category": "Shirt"
+     },
+     {
+      "part": "Bottoms",
+      "name": "White trousers",
+      "category": "Trousers"
+     }
+    ]
+   },
+   {
+    "id": "date-e",
+    "image": "/images/looks/date-e.jpg",
+    "name": "Long Black Coat",
+    "alt": "Man in a long black coat over a black graphic T-shirt with a hat",
+    "line": "A long black coat over all black. Dramatic, a bit fashion.",
+    "pieces": [
+     {
+      "part": "Coat",
+      "name": "Black longline coat",
+      "category": "Jacket"
+     },
+     {
+      "part": "Top",
+      "name": "Black graphic T-shirt",
+      "category": "T-shirt"
+     },
+     {
+      "part": "Bottoms",
+      "name": "Black trousers",
+      "category": "Trousers"
+     }
+    ]
+   },
+   {
+    "id": "date-f",
+    "image": "/images/looks/date-f.jpg",
+    "name": "Leather & Red Tie",
+    "alt": "Man in a black leather jacket, white shirt and skinny red tie",
+    "line": "Leather jacket over a white shirt and a skinny red tie. Rock and roll, but smart.",
+    "pieces": [
+     {
+      "part": "Jacket",
+      "name": "Black leather jacket",
+      "category": "Jacket"
+     },
+     {
+      "part": "Shirt",
+      "name": "White shirt",
+      "category": "Shirt"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "office",
+  "name": "Office",
+  "lower": "office",
+  "phrase": "to the office",
+  "blurb": "Smart enough for Monday, relaxed by Friday.",
+  "looks": [
+   {
+    "id": "off-a",
+    "image": "/images/looks/off-a.jpg",
+    "name": "Earth Tones",
+    "alt": "Man in a brown check blazer, olive shirt and stone chinos",
+    "line": "Brown check blazer, olive shirt, stone chinos. Smart and warm, not corporate.",
+    "pieces": [
+     {
+      "part": "Jacket",
+      "name": "Brown check blazer",
+      "category": "Jacket"
+     },
+     {
+      "part": "Shirt",
+      "name": "Olive cotton shirt",
+      "category": "Shirt"
+     },
+     {
+      "part": "Bottoms",
+      "name": "Stone chinos",
+      "category": "Trousers"
+     }
+    ]
+   },
+   {
+    "id": "off-b",
+    "image": "/images/looks/off-b.jpg",
+    "name": "Blazer & Tee",
+    "alt": "Man in a grey blazer over a white T-shirt with navy trousers",
+    "line": "Grey blazer over a white tee, navy trousers. Smart-casual done properly.",
+    "pieces": [
+     {
+      "part": "Jacket",
+      "name": "Grey blazer",
+      "category": "Jacket"
+     },
+     {
+      "part": "Under",
+      "name": "White crew-neck T-shirt",
+      "category": "T-shirt"
+     },
+     {
+      "part": "Bottoms",
+      "name": "Navy trousers",
+      "category": "Trousers"
+     }
+    ]
+   },
+   {
+    "id": "off-c",
+    "image": "/images/looks/off-c.jpg",
+    "name": "Rust Check Blazer",
+    "alt": "Man in a rust check blazer and pale blue shirt",
+    "line": "A rust check blazer over a pale blue shirt. Smart with a bit of warmth.",
+    "pieces": [
+     {
+      "part": "Jacket",
+      "name": "Rust check blazer",
+      "category": "Jacket"
+     },
+     {
+      "part": "Shirt",
+      "name": "Pale blue shirt",
+      "category": "Shirt"
+     },
+     {
+      "part": "Bottoms",
+      "name": "Grey trousers",
+      "category": "Trousers"
+     }
+    ]
+   },
+   {
+    "id": "off-d",
+    "image": "/images/looks/off-d.jpg",
+    "name": "Navy Blazer & Colour",
+    "alt": "Man in a navy blazer, orange jumper and grey trousers on steps",
+    "line": "Navy blazer with a bright jumper underneath. Office, with personality.",
+    "pieces": [
+     {
+      "part": "Jacket",
+      "name": "Navy blazer",
+      "category": "Jacket"
+     },
+     {
+      "part": "Knit",
+      "name": "Orange crew-neck jumper",
+      "category": "Jumper"
+     },
+     {
+      "part": "Bottoms",
+      "name": "Grey trousers",
+      "category": "Trousers"
+     },
+     {
+      "part": "Shoes",
+      "name": "Brown leather shoes",
+      "category": "Shoes"
+     }
+    ]
+   },
+   {
+    "id": "off-e",
+    "image": "/images/looks/off-e.jpg",
+    "name": "Roll-Neck & Blazer",
+    "alt": "Man in a brown check blazer, cream roll-neck and burgundy trousers",
+    "line": "Cream roll-neck under a check blazer. The creative-office favourite.",
+    "pieces": [
+     {
+      "part": "Jacket",
+      "name": "Brown check blazer",
+      "category": "Jacket"
+     },
+     {
+      "part": "Knit",
+      "name": "Cream roll-neck",
+      "category": "Jumper"
+     },
+     {
+      "part": "Bottoms",
+      "name": "Burgundy trousers",
+      "category": "Trousers"
+     }
+    ]
+   },
+   {
+    "id": "off-f",
+    "image": "/images/looks/off-f.jpg",
+    "name": "Shirt & Trousers",
+    "alt": "Man in a light grey shirt, black trousers and brown shoes",
+    "line": "A good shirt and dark trousers. The quiet, everyday office look.",
+    "pieces": [
+     {
+      "part": "Shirt",
+      "name": "Light grey shirt",
+      "category": "Shirt"
+     },
+     {
+      "part": "Bottoms",
+      "name": "Black trousers",
+      "category": "Trousers"
+     },
+     {
+      "part": "Shoes",
+      "name": "Brown leather shoes",
+      "category": "Shoes"
+     }
+    ]
+   }
+  ]
+ }
+]

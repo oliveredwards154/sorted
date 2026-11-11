@@ -1,0 +1,18 @@
+{
+  "name": "sorted",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Sorted. – menswear, decided. Pick the occasion, choose between looks, shop the pieces.",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test \"test/*.test.js\"",
+    "feeds:sync": "node scripts/sync-feeds.js",
+    "links:check": "node scripts/check-links.js",
+    "partners:status": "node scripts/partners-status.js"
+  }
+}

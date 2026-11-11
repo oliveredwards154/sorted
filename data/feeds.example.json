@@ -1,0 +1,21 @@
+[
+  {
+    "name": "Webgains – Albam",
+    "network": "Webgains",
+    "urlEnv": "WEBGAINS_FEED_ALBAM",
+    "delimiter": ",",
+    "advertiserId": "276085",
+    "merchantName": "Albam",
+    "columns": {
+      "productId": "product_id",
+      "name": "product_name",
+      "url": "merchant_deep_link",
+      "affiliateUrl": "deeplink",
+      "price": "price",
+      "image": "image_url",
+      "category": "category_name",
+      "colour": "colour",
+      "inStock": "in_stock"
+    }
+  }
+]

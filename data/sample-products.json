@@ -1,0 +1,386 @@
+[
+ {
+  "id": "sample-shirt-0",
+  "name": "Light blue Oxford shirt",
+  "category": "Shirt",
+  "colour": "Light blue",
+  "keywords": "oxford shirt formal",
+  "image": "/images/products/shirt-0.jpg"
+ },
+ {
+  "id": "sample-shirt-1",
+  "name": "Linen grandad-collar shirt",
+  "category": "Shirt",
+  "colour": "White",
+  "keywords": "linen shirt",
+  "image": "/images/products/shirt-1.jpg"
+ },
+ {
+  "id": "sample-shirt-2",
+  "name": "Khaki utility overshirt",
+  "category": "Shirt",
+  "colour": "Stone",
+  "keywords": "overshirt cotton",
+  "image": "/images/products/shirt-2.jpg"
+ },
+ {
+  "id": "sample-shirt-3",
+  "name": "Green striped shirt",
+  "category": "Shirt",
+  "colour": "Olive",
+  "keywords": "shirt striped",
+  "image": "/images/products/shirt-3.jpg"
+ },
+ {
+  "id": "sample-shirt-4",
+  "name": "Washed denim shirt",
+  "category": "Shirt",
+  "colour": "Navy",
+  "keywords": "denim chambray shirt-jacket",
+  "image": "/images/products/shirt-4.jpg"
+ },
+ {
+  "id": "sample-shirt-5",
+  "name": "Printed resort shirt",
+  "category": "Shirt",
+  "colour": "Black",
+  "keywords": "print",
+  "image": "/images/products/shirt-5.jpg"
+ },
+ {
+  "id": "sample-tee-0",
+  "name": "Black crew-neck T-shirt",
+  "category": "T-shirt",
+  "colour": "Black",
+  "keywords": "crew-neck polo graphic",
+  "image": "/images/products/tee-0.jpg"
+ },
+ {
+  "id": "sample-tee-1",
+  "name": "White crew-neck T-shirt",
+  "category": "T-shirt",
+  "colour": "White",
+  "keywords": "crew-neck",
+  "image": "/images/products/tee-1.jpg"
+ },
+ {
+  "id": "sample-tee-2",
+  "name": "Boxy heavyweight T-shirt",
+  "category": "T-shirt",
+  "colour": "White",
+  "keywords": "boxy",
+  "image": "/images/products/tee-2.jpg"
+ },
+ {
+  "id": "sample-tee-3",
+  "name": "Green crew-neck T-shirt",
+  "category": "T-shirt",
+  "colour": "Olive",
+  "keywords": "crew-neck",
+  "image": "/images/products/tee-3.jpg"
+ },
+ {
+  "id": "sample-tee-4",
+  "name": "Classic white T-shirt",
+  "category": "T-shirt",
+  "colour": "White",
+  "keywords": "v-neck",
+  "image": "/images/products/tee-4.jpg"
+ },
+ {
+  "id": "sample-tee-5",
+  "name": "Graphic print T-shirt",
+  "category": "T-shirt",
+  "colour": "Cream",
+  "keywords": "graphic",
+  "image": "/images/products/tee-5.jpg"
+ },
+ {
+  "id": "sample-knit-0",
+  "name": "Chunky brown knit",
+  "category": "Jumper",
+  "colour": "Brown",
+  "keywords": "chunky knit",
+  "image": "/images/products/knit-0.jpg"
+ },
+ {
+  "id": "sample-knit-1",
+  "name": "Ribbed lambswool jumper",
+  "category": "Jumper",
+  "colour": "Tan",
+  "keywords": "fine-knit crew-neck",
+  "image": "/images/products/knit-1.jpg"
+ },
+ {
+  "id": "sample-knit-2",
+  "name": "Camel knit jumper",
+  "category": "Jumper",
+  "colour": "Tan",
+  "keywords": "knit rust",
+  "image": "/images/products/knit-2.jpg"
+ },
+ {
+  "id": "sample-knit-3",
+  "name": "Cream cable knit",
+  "category": "Jumper",
+  "colour": "Cream",
+  "keywords": "cable-knit roll-neck",
+  "image": "/images/products/knit-3.jpg"
+ },
+ {
+  "id": "sample-knit-4",
+  "name": "Pale blue cotton knit",
+  "category": "Jumper",
+  "colour": "Light blue",
+  "keywords": "knit",
+  "image": "/images/products/knit-4.jpg"
+ },
+ {
+  "id": "sample-knit-5",
+  "name": "Fisherman cable jumper",
+  "category": "Jumper",
+  "colour": "Grey",
+  "keywords": "cable-knit",
+  "image": "/images/products/knit-5.jpg"
+ },
+ {
+  "id": "sample-jacket-0",
+  "name": "Navy blazer",
+  "category": "Jacket",
+  "colour": "Navy",
+  "keywords": "blazer",
+  "image": "/images/products/jacket-0.jpg"
+ },
+ {
+  "id": "sample-jacket-1",
+  "name": "Cream unstructured blazer",
+  "category": "Jacket",
+  "colour": "Cream",
+  "keywords": "blazer",
+  "image": "/images/products/jacket-1.jpg"
+ },
+ {
+  "id": "sample-jacket-2",
+  "name": "Black tailored blazer",
+  "category": "Jacket",
+  "colour": "Black",
+  "keywords": "blazer suit",
+  "image": "/images/products/jacket-2.jpg"
+ },
+ {
+  "id": "sample-jacket-3",
+  "name": "Off-white linen blazer",
+  "category": "Jacket",
+  "colour": "White",
+  "keywords": "linen blazer",
+  "image": "/images/products/jacket-3.jpg"
+ },
+ {
+  "id": "sample-jacket-4",
+  "name": "Classic denim jacket",
+  "category": "Jacket",
+  "colour": "Navy",
+  "keywords": "denim",
+  "image": "/images/products/jacket-4.jpg"
+ },
+ {
+  "id": "sample-jacket-5",
+  "name": "Grey check waistcoat",
+  "category": "Jacket",
+  "colour": "Grey",
+  "keywords": "three-piece check waistcoat",
+  "image": "/images/products/jacket-5.jpg"
+ },
+ {
+  "id": "sample-jacket-6",
+  "name": "Black leather jacket",
+  "category": "Jacket",
+  "colour": "Black",
+  "keywords": "leather biker",
+  "image": "/images/products/jacket-6.jpg"
+ },
+ {
+  "id": "sample-jacket-7",
+  "name": "Brown wool overshirt",
+  "category": "Jacket",
+  "colour": "Brown",
+  "keywords": "overshirt shirt-jacket shacket tweed",
+  "image": "/images/products/jacket-7.jpg"
+ },
+ {
+  "id": "sample-jacket-8",
+  "name": "Grey check overshirt",
+  "category": "Jacket",
+  "colour": "Grey",
+  "keywords": "overshirt shacket shirt-jacket check tweed",
+  "image": "/images/products/jacket-8.jpg"
+ },
+ {
+  "id": "sample-jacket-9",
+  "name": "Brown suede shacket",
+  "category": "Jacket",
+  "colour": "Brown",
+  "keywords": "shacket suede overshirt",
+  "image": "/images/products/jacket-9.jpg"
+ },
+ {
+  "id": "sample-jacket-10",
+  "name": "Camel overcoat",
+  "category": "Jacket",
+  "colour": "Tan",
+  "keywords": "overcoat coat longline",
+  "image": "/images/products/jacket-10.jpg"
+ },
+ {
+  "id": "sample-jacket-11",
+  "name": "Navy suit jacket",
+  "category": "Jacket",
+  "colour": "Navy",
+  "keywords": "suit two-piece blazer",
+  "image": "/images/products/jacket-11.jpg"
+ },
+ {
+  "id": "sample-trousers-0",
+  "name": "Stone chinos",
+  "category": "Trousers",
+  "colour": "Stone",
+  "keywords": "chinos",
+  "image": "/images/products/trousers-0.jpg"
+ },
+ {
+  "id": "sample-trousers-1",
+  "name": "Grey check trousers",
+  "category": "Trousers",
+  "colour": "Grey",
+  "keywords": "trousers check wool",
+  "image": "/images/products/trousers-1.jpg"
+ },
+ {
+  "id": "sample-trousers-2",
+  "name": "Light-wash jeans",
+  "category": "Trousers",
+  "colour": "Light blue",
+  "keywords": "jeans light-wash",
+  "image": "/images/products/trousers-2.jpg"
+ },
+ {
+  "id": "sample-trousers-3",
+  "name": "Faded straight jeans",
+  "category": "Trousers",
+  "colour": "Light blue",
+  "keywords": "jeans faded straight",
+  "image": "/images/products/trousers-3.jpg"
+ },
+ {
+  "id": "sample-trousers-4",
+  "name": "Mid-wash jeans",
+  "category": "Trousers",
+  "colour": "Navy",
+  "keywords": "jeans mid-wash ripped",
+  "image": "/images/products/trousers-4.jpg"
+ },
+ {
+  "id": "sample-trousers-5",
+  "name": "Dark-wash slim jeans",
+  "category": "Trousers",
+  "colour": "Navy",
+  "keywords": "jeans dark-wash slim",
+  "image": "/images/products/trousers-5.jpg"
+ },
+ {
+  "id": "sample-trousers-6",
+  "name": "Grey tailored trousers",
+  "category": "Trousers",
+  "colour": "Grey",
+  "keywords": "trousers wool tailored",
+  "image": "/images/products/trousers-6.jpg"
+ },
+ {
+  "id": "sample-trousers-7",
+  "name": "Charcoal slim trousers",
+  "category": "Trousers",
+  "colour": "Black",
+  "keywords": "trousers slim relaxed",
+  "image": "/images/products/trousers-7.jpg"
+ },
+ {
+  "id": "sample-trousers-8",
+  "name": "Light grey trousers",
+  "category": "Trousers",
+  "colour": "Grey",
+  "keywords": "trousers relaxed cotton",
+  "image": "/images/products/trousers-8.jpg"
+ },
+ {
+  "id": "sample-shoes-0",
+  "name": "Tan leather Derbies",
+  "category": "Shoes",
+  "colour": "Tan",
+  "keywords": "derbies leather shoes",
+  "image": "/images/products/shoes-0.jpg"
+ },
+ {
+  "id": "sample-shoes-1",
+  "name": "Brown brogues",
+  "category": "Shoes",
+  "colour": "Brown",
+  "keywords": "brogues oxfords",
+  "image": "/images/products/shoes-1.jpg"
+ },
+ {
+  "id": "sample-shoes-2",
+  "name": "Tan wingtip brogues",
+  "category": "Shoes",
+  "colour": "Tan",
+  "keywords": "brogues",
+  "image": "/images/products/shoes-2.jpg"
+ },
+ {
+  "id": "sample-shoes-3",
+  "name": "Black Derbies",
+  "category": "Shoes",
+  "colour": "Black",
+  "keywords": "derbies",
+  "image": "/images/products/shoes-3.jpg"
+ },
+ {
+  "id": "sample-shoes-4",
+  "name": "Black Oxfords",
+  "category": "Shoes",
+  "colour": "Black",
+  "keywords": "oxfords",
+  "image": "/images/products/shoes-4.jpg"
+ },
+ {
+  "id": "sample-shoes-5",
+  "name": "Suede driving loafers",
+  "category": "Shoes",
+  "colour": "Navy",
+  "keywords": "loafers suede",
+  "image": "/images/products/shoes-5.jpg"
+ },
+ {
+  "id": "sample-shoes-6",
+  "name": "White leather trainers",
+  "category": "Shoes",
+  "colour": "White",
+  "keywords": "trainers white",
+  "image": "/images/products/shoes-6.jpg"
+ },
+ {
+  "id": "sample-shoes-7",
+  "name": "Grey running trainers",
+  "category": "Shoes",
+  "colour": "Grey",
+  "keywords": "trainers",
+  "image": "/images/products/shoes-7.jpg"
+ },
+ {
+  "id": "sample-shoes-8",
+  "name": "Black leather boots",
+  "category": "Shoes",
+  "colour": "Black",
+  "keywords": "boots chelsea",
+  "image": "/images/products/shoes-8.jpg"
+ }
+]

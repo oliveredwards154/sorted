@@ -1,0 +1,3686 @@
+[
+ {
+  "id": "adidas",
+  "name": "Adidas",
+  "website": "https://www.adidas.co.uk",
+  "size": "Big",
+  "tier": "££",
+  "category": "Sportswear",
+  "occasions": [
+   "Weekend",
+   "Pub",
+   "Date"
+  ],
+  "notes": "Sambas, Gazelles and Stan Smiths for smart-casual outfits",
+  "affiliate": {
+   "network": "Awin",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": "https://ui.awin.com/merchant-profile/77022",
+   "howToApply": "Apply via Awin advertiser profile (adidas UK, ID 77022)",
+   "source": "https://ui.awin.com/merchant-profile/77022"
+  }
+ },
+ {
+  "id": "albam",
+  "name": "Albam",
+  "website": "https://www.albamclothing.com/",
+  "size": "Small",
+  "tier": "£££",
+  "category": "Independent",
+  "occasions": [
+   "Weekend",
+   "Pub",
+   "Date"
+  ],
+  "notes": "British-made workwear-inspired staples",
+  "affiliate": {
+   "network": "Webgains",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": "https://www.affilitizer.com/programs/albamclothing.com",
+   "howToApply": "Apply via Webgains (programme ID 276085)",
+   "source": "https://www.affilitizer.com/programs/albamclothing.com"
+  }
+ },
+ {
+  "id": "allbirds",
+  "name": "Allbirds",
+  "website": "https://www.allbirds.co.uk",
+  "size": "Mid",
+  "tier": "££",
+  "category": "Footwear",
+  "occasions": [
+   "Weekend",
+   "Office"
+  ],
+  "notes": "Sustainable wool and tree trainers, a smart-casual office option",
+  "affiliate": {
+   "network": "Awin",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": "https://allbirds.co.uk/pages/affiliates",
+   "howToApply": "Affiliates page in site footer links to the Awin profile",
+   "source": "https://allbirds.co.uk/pages/affiliates"
+  }
+ },
+ {
+  "id": "allsaints",
+  "name": "AllSaints",
+  "website": "https://www.allsaints.com/uk/",
+  "size": "Big",
+  "tier": "££",
+  "category": "Premium",
+  "occasions": [
+   "Date",
+   "Pub",
+   "Weekend"
+  ],
+  "notes": "Leather jackets and dark smart-casual for dates",
+  "affiliate": {
+   "network": "Rakuten",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": "https://www.affilitizer.com/programs/allsaints.com",
+   "howToApply": "Apply via Rakuten Advertising marketplace; UK network unconfirmed",
+   "source": "https://www.affilitizer.com/programs/allsaints.com"
+  }
+ },
+ {
+  "id": "arket",
+  "name": "Arket",
+  "website": "https://www.arket.com/en-gb/",
+  "size": "Big",
+  "tier": "££",
+  "category": "High street",
+  "occasions": [
+   "Weekend",
+   "Office",
+   "Date"
+  ],
+  "notes": "H&M Group brand; good clean basics for office and weekend",
+  "affiliate": {
+   "network": "Rakuten",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": "https://www.affilitizer.com/programs/arket.com",
+   "howToApply": "Apply via Rakuten Advertising (also listed on Partnerize since Oct 2025)",
+   "source": "https://www.affilitizer.com/programs/arket.com"
+  }
+ },
+ {
+  "id": "asket",
+  "name": "Asket",
+  "website": "https://www.asket.com/en-gb",
+  "size": "Mid",
+  "tier": "£££",
+  "category": "Premium",
+  "occasions": [
+   "Office",
+   "Interview",
+   "Date",
+   "Weekend"
+  ],
+  "notes": "Swedish 'permanent collection' wardrobe essentials",
+  "affiliate": {
+   "network": "CJ",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": "https://www.asket.com/en-gb",
+   "howToApply": "Apply via CJ Affiliate; also Press & Creators page in footer",
+   "source": "https://www.affilitizer.com/programs/asket.com"
+  }
+ },
+ {
+  "id": "asos",
+  "name": "ASOS",
+  "website": "https://www.asos.com/men/",
+  "size": "Big",
+  "tier": "£",
+  "category": "Retailer",
+  "occasions": [
+   "Pub",
+   "Weekend",
+   "Date",
+   "Wedding"
+  ],
+  "notes": "Huge multi-brand range incl. own label and Topman (Topman now sold only via ASOS)",
+  "affiliate": {
+   "network": "Rakuten",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": "https://www.affilitizer.com/programs/asos.com",
+   "howToApply": "Apply via Rakuten Advertising publisher marketplace (search ASOS)",
+   "source": "https://www.affilitizer.com/programs/asos.com"
+  }
+ },
+ {
+  "id": "aspinal-of-london",
+  "name": "Aspinal of London",
+  "website": "https://www.aspinaloflondon.com",
+  "size": "Mid",
+  "tier": "£££",
+  "category": "Accessories",
+  "occasions": [
+   "Office",
+   "Interview",
+   "Wedding"
+  ],
+  "notes": "Leather briefcases, wallets and belts; good for office",
+  "affiliate": {
+   "network": "Partnerize",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": "https://www.affilitizer.com/programs/aspinaloflondon.com",
+   "howToApply": "Apply via Partnerize (since Apr 2026); also listed on Rakuten",
+   "source": "https://www.affilitizer.com/programs/aspinaloflondon.com"
+  }
+ },
+ {
+  "id": "barbour",
+  "name": "Barbour",
+  "website": "https://www.barbour.com/uk",
+  "size": "Big",
+  "tier": "££",
+  "category": "Outdoor & heritage",
+  "occasions": [
+   "Weekend",
+   "Pub",
+   "Wedding"
+  ],
+  "notes": "Iconic waxed jackets; on Adtraction only, since Feb 2026",
+  "affiliate": {
+   "network": "Adtraction",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": "https://adtraction.com/advertisers/2032774343",
+   "howToApply": "Apply via Barbour advertiser page on Adtraction",
+   "source": "https://adtraction.com/advertisers/2032774343"
+  }
+ },
+ {
+  "id": "barker",
+  "name": "Barker",
+  "website": "https://www.barkershoes.com",
+  "size": "Mid",
+  "tier": "£££",
+  "category": "Footwear",
+  "occasions": [
+   "Wedding",
+   "Interview",
+   "Office"
+  ],
+  "notes": "Made in Earls Barton since 1880",
+  "affiliate": {
+   "network": "Awin",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": "Up to 20%",
+   "applyUrl": "https://ui.awin.com/merchant-profile/91853",
+   "howToApply": "Apply via Awin advertiser profile (ID 91853); product datafeed available",
+   "source": "https://ui.awin.com/merchant-profile/91853"
+  }
+ },
+ {
+  "id": "bellroy",
+  "name": "Bellroy",
+  "website": "https://bellroy.com",
+  "size": "Mid",
+  "tier": "££",
+  "category": "Accessories",
+  "occasions": [
+   "Office",
+   "Weekend"
+  ],
+  "notes": "Slim wallets and tech bags; UK coverage of the Rakuten programme unclear",
+  "affiliate": {
+   "network": "Rakuten",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": "7%",
+   "applyUrl": "https://bellroy.com/affiliate-program",
+   "howToApply": "Affiliate page: apply via Rakuten or Skimlinks",
+   "source": "https://bellroy.com/affiliate-program"
+  }
+ },
+ {
+  "id": "belstaff",
+  "name": "Belstaff",
+  "website": "https://www.belstaff.co.uk/",
+  "size": "Mid",
+  "tier": "£££",
+  "category": "Outdoor & heritage",
+  "occasions": [
+   "Weekend",
+   "Date",
+   "Pub"
+  ],
+  "notes": "Known for wax and leather jackets",
+  "affiliate": {
+   "network": "Rakuten",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": "https://www.affilitizer.com/programs/belstaff.co.uk",
+   "howToApply": "Apply via Rakuten Advertising marketplace (Belstaff UK)",
+   "source": "https://www.affilitizer.com/programs/belstaff.co.uk"
+  }
+ },
+ {
+  "id": "ben-sherman",
+  "name": "Ben Sherman",
+  "website": "https://www.bensherman.co.uk/",
+  "size": "Mid",
+  "tier": "££",
+  "category": "High street",
+  "occasions": [
+   "Pub",
+   "Date",
+   "Weekend",
+   "Office"
+  ],
+  "notes": "Mod-heritage shirts, ideal for pub and date looks",
+  "affiliate": {
+   "network": "Awin",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": "5%",
+   "applyUrl": "https://ui.awin.com/merchant-profile/5032",
+   "howToApply": "Apply via Awin (ID 5032); managed by Gen3 Marketing, bensherman@gen3marketing.com (listed on the Awin profile)",
+   "source": "https://ui.awin.com/merchant-profile/5032"
+  }
+ },
+ {
+  "id": "berghaus",
+  "name": "Berghaus",
+  "website": "https://www.berghaus.com/",
+  "size": "Big",
+  "tier": "££",
+  "category": "Outdoor & heritage",
+  "occasions": [
+   "Weekend",
+   "Pub"
+  ],
+  "notes": "British outdoor brand with B Corp status",
+  "affiliate": {
+   "network": "Awin",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": "8% new / 5% existing customers",
+   "applyUrl": "https://ui.awin.com/merchant-profile/6844",
+   "howToApply": "Apply via Awin advertiser profile (ID 6844); also listed on Impact since Jul 2026",
+   "source": "https://ui.awin.com/merchant-profile/6844/commission-groups"
+  }
+ },
+ {
+  "id": "boohooman",
+  "name": "boohooMAN",
+  "website": "https://www.boohooman.com/",
+  "size": "Big",
+  "tier": "£",
+  "category": "High street",
+  "occasions": [
+   "Pub",
+   "Date",
+   "Weekend"
+  ],
+  "notes": "Product feed offered; fast-fashion pricing",
+  "affiliate": {
+   "network": "Awin",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": "7% on most sales",
+   "applyUrl": "https://www.boohooman.com/page/affiliate.html",
+   "howToApply": "Affiliate page on boohooman.com; apply via Awin (UK profile ID 7009)",
+   "source": "https://mobile.boohooman.com/page/affiliate.html"
+  }
+ },
+ {
+  "id": "brora",
+  "name": "Brora",
+  "website": "https://www.broraonline.com/en-gb",
+  "size": "Small",
+  "tier": "£££",
+  "category": "Premium",
+  "occasions": [
+   "Office",
+   "Date",
+   "Weekend"
+  ],
+  "notes": "Scottish cashmere for the premium knitwear slot",
+  "affiliate": {
+   "network": "Awin",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": "https://ui.awin.com/merchant-profile/17043",
+   "howToApply": "Apply via Awin (ID 17043); managed by Vervaunt, affiliates@vervaunt.com (listed on the Awin profile)",
+   "source": "https://ui.awin.com/merchant-profile/17043"
+  }
+ },
+ {
+  "id": "browns",
+  "name": "Browns",
+  "website": "https://www.brownsfashion.com/uk/",
+  "size": "Mid",
+  "tier": "£££",
+  "category": "Retailer",
+  "occasions": [
+   "Date",
+   "Wedding"
+  ],
+  "notes": "London designer boutique (Farfetch-owned)",
+  "affiliate": {
+   "network": "Partnerize",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": "https://www.affilitizer.com/programs/brownsfashion.com",
+   "howToApply": "Apply to Browns on Partnerize",
+   "source": "https://www.affilitizer.com/programs/brownsfashion.com"
+  }
+ },
+ {
+  "id": "burton",
+  "name": "Burton",
+  "website": "https://www.burton.co.uk/",
+  "size": "Big",
+  "tier": "£",
+  "category": "High street",
+  "occasions": [
+   "Office",
+   "Interview",
+   "Wedding",
+   "Pub",
+   "Weekend"
+  ],
+  "notes": "Now online-only in the boohoo/Debenhams group; product feeds offered",
+  "affiliate": {
+   "network": "Awin",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": "5% (1% app sales)",
+   "applyUrl": "https://ui.awin.com/merchant-profile/1052",
+   "howToApply": "Apply via the Awin merchant profile (ID 1052)",
+   "source": "https://ui.awin.com/merchant-profile/1052"
+  }
+ },
+ {
+  "id": "calvin-klein",
+  "name": "Calvin Klein",
+  "website": "https://www.calvinklein.co.uk/",
+  "size": "Big",
+  "tier": "££",
+  "category": "Premium",
+  "occasions": [
+   "Date",
+   "Weekend",
+   "Office"
+  ],
+  "notes": "Minimalist basics, denim and underwear",
+  "affiliate": {
+   "network": "Partnerize",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": "https://www.affilitizer.com/programs/calvinklein.co.uk",
+   "howToApply": "Apply via Partnerize (Calvin Klein UK)",
+   "source": "https://www.affilitizer.com/programs/calvinklein.co.uk"
+  }
+ },
+ {
+  "id": "castore",
+  "name": "Castore",
+  "website": "https://castore.com/",
+  "size": "Mid",
+  "tier": "££",
+  "category": "Sportswear",
+  "occasions": [
+   "Weekend",
+   "Pub"
+  ],
+  "notes": "Premium athleisure; now owns Grenson, so a group-level conversation is possible",
+  "affiliate": {
+   "network": "Awin",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": "https://ui.awin.com/merchant-profile/46285",
+   "howToApply": "Apply via the Castore UK Awin profile (ID 46285)",
+   "source": "https://ui.awin.com/merchant-profile/46285"
+  }
+ },
+ {
+  "id": "charles-clinkard",
+  "name": "Charles Clinkard",
+  "website": "https://www.charlesclinkard.co.uk/",
+  "size": "Mid",
+  "tier": "££",
+  "category": "Footwear",
+  "occasions": [
+   "Office",
+   "Wedding",
+   "Interview",
+   "Weekend"
+  ],
+  "notes": "Multi-brand shoe retailer: one deal covers many shoe brands",
+  "affiliate": {
+   "network": "Partnerize",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": null,
+   "howToApply": "Apply to the Charles Clinkard campaign on Partnerize",
+   "source": "https://www.affilitizer.com/programs/charlesclinkard.co.uk"
+  }
+ },
+ {
+  "id": "charles-tyrwhitt",
+  "name": "Charles Tyrwhitt",
+  "website": "https://www.charlestyrwhitt.com/uk/",
+  "size": "Big",
+  "tier": "££",
+  "category": "Tailoring",
+  "occasions": [
+   "Office",
+   "Interview",
+   "Wedding"
+  ],
+  "notes": "Core office shirts and suits brand",
+  "affiliate": {
+   "network": "CJ",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": "up to 6% new customers, 2% existing",
+   "applyUrl": "https://www.charlestyrwhitt.com/uk/affiliate-programme.html",
+   "howToApply": "Apply via CJ, or email affiliates@ctshirts.co.uk (listed on their affiliate page)",
+   "source": "https://www.charlestyrwhitt.com/uk/affiliate-programme.html"
+  }
+ },
+ {
+  "id": "cheaney",
+  "name": "Cheaney",
+  "website": "https://www.cheaney.co.uk",
+  "size": "Small",
+  "tier": "£££",
+  "category": "Footwear",
+  "occasions": [
+   "Wedding",
+   "Office",
+   "Weekend"
+  ],
+  "notes": "Family-owned Desborough maker of country boots and brogues",
+  "affiliate": {
+   "network": "Partnerize",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": "https://affi.io/m/cheaney-co-uk",
+   "howToApply": "Partnerize listing shown as closed; contact the brand directly",
+   "source": "https://affi.io/m/cheaney-co-uk"
+  }
+ },
+ {
+  "id": "church-s",
+  "name": "Church's",
+  "website": "https://www.church-footwear.com",
+  "size": "Mid",
+  "tier": "£££",
+  "category": "Footwear",
+  "occasions": [
+   "Wedding",
+   "Interview",
+   "Office"
+  ],
+  "notes": "Luxury Northampton Oxfords (Prada-owned), top-tier wedding pick",
+  "affiliate": {
+   "network": "Partnerize",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": "https://affi.io/m/churchs-uk",
+   "howToApply": "Apply via Partnerize (Church's UK programme)",
+   "source": "https://affi.io/m/churchs-uk"
+  }
+ },
+ {
+  "id": "clarks",
+  "name": "Clarks",
+  "website": "https://www.clarks.com/en-gb",
+  "size": "Big",
+  "tier": "££",
+  "category": "Footwear",
+  "occasions": [
+   "Office",
+   "Interview",
+   "Weekend"
+  ],
+  "notes": "Desert boots and smart derbies, a safe mid-price pick for office and interviews",
+  "affiliate": {
+   "network": "Awin",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": "Up to 20%",
+   "applyUrl": "https://www.clarks.com/en-gb/affiliates",
+   "howToApply": "Apply via Awin advertiser profile (ID 2515), linked from Clarks' affiliates page",
+   "source": "https://www.clarks.com/en-gb/affiliates"
+  }
+ },
+ {
+  "id": "colorful-standard",
+  "name": "Colorful Standard",
+  "website": "https://colorfulstandard.com/",
+  "size": "Small",
+  "tier": "££",
+  "category": "Independent",
+  "occasions": [
+   "Weekend",
+   "Pub"
+  ],
+  "notes": "Organic colourful basics",
+  "affiliate": {
+   "network": "In-house",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": "https://colorfulstandard.com/pages/contact-us",
+   "howToApply": "Contact form; footer 'Customer Rewards' page shows no affiliate details",
+   "source": "https://colorfulstandard.com/pages/affiliates"
+  }
+ },
+ {
+  "id": "community-clothing",
+  "name": "Community Clothing",
+  "website": "https://communityclothing.co.uk/",
+  "size": "Small",
+  "tier": "££",
+  "category": "Independent",
+  "occasions": [
+   "Weekend",
+   "Office",
+   "Pub"
+  ],
+  "notes": "Patrick Grant's UK-made, fair-priced basics",
+  "affiliate": {
+   "network": "None found",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": "https://communityclothing.co.uk/",
+   "howToApply": "Contact Us page on site",
+   "source": "https://communityclothing.co.uk/"
+  }
+ },
+ {
+  "id": "converse",
+  "name": "Converse",
+  "website": "https://www.converse.com/uk",
+  "size": "Big",
+  "tier": "££",
+  "category": "Sportswear",
+  "occasions": [
+   "Weekend",
+   "Pub",
+   "Date"
+  ],
+  "notes": "Chuck 70s for casual weekend looks",
+  "affiliate": {
+   "network": "Awin",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": "6% full price, 4% sale",
+   "applyUrl": "https://ui.awin.com/merchant-profile/7826",
+   "howToApply": "Apply via Awin advertiser profile (Converse UK, ID 7826); data feed available",
+   "source": "https://ui.awin.com/merchant-profile/7826"
+  }
+ },
+ {
+  "id": "cordings",
+  "name": "Cordings",
+  "website": "https://www.cordings.co.uk/",
+  "size": "Small",
+  "tier": "£££",
+  "category": "Outdoor & heritage",
+  "occasions": [
+   "Wedding",
+   "Weekend",
+   "Pub"
+  ],
+  "notes": "Piccadilly country clothing since 1839",
+  "affiliate": {
+   "network": "None found",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": "https://www.cordings.co.uk/",
+   "howToApply": "Email shop@cordings.co.uk (listed on site)",
+   "source": "https://www.cordings.co.uk/"
+  }
+ },
+ {
+  "id": "cos",
+  "name": "COS",
+  "website": "https://www.cos.com/en-gb/",
+  "size": "Big",
+  "tier": "££",
+  "category": "High street",
+  "occasions": [
+   "Office",
+   "Date",
+   "Weekend"
+  ],
+  "notes": "Programme aimed at content creators; covers the UK plus 28 other European countries",
+  "affiliate": {
+   "network": "Rakuten",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": "https://www.cos.com/en-ch/affiliates",
+   "howToApply": "Apply via the COS affiliates page (you need to be accepted onto Rakuten first)",
+   "source": "https://www.cos.com/en-ch/affiliates"
+  }
+ },
+ {
+  "id": "craghoppers",
+  "name": "Craghoppers",
+  "website": "https://www.craghoppers.com/",
+  "size": "Mid",
+  "tier": "££",
+  "category": "Outdoor & heritage",
+  "occasions": [
+   "Weekend"
+  ],
+  "notes": "Left Awin in Jul 2025; practical travel and walking wear",
+  "affiliate": {
+   "network": "Webgains",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": "https://www.affilitizer.com/programs/craghoppers.com",
+   "howToApply": "Apply on Webgains (also listed as Craghoppers UK on Flexoffers)",
+   "source": "https://www.affilitizer.com/programs/craghoppers.com"
+  }
+ },
+ {
+  "id": "crew-clothing",
+  "name": "Crew Clothing",
+  "website": "https://www.crewclothing.co.uk/",
+  "size": "Mid",
+  "tier": "££",
+  "category": "High street",
+  "occasions": [
+   "Weekend",
+   "Pub",
+   "Date"
+  ],
+  "notes": "Nautical smart-casual",
+  "affiliate": {
+   "network": "Awin",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": "https://www.affilitizer.com/programs/crewclothing.co.uk",
+   "howToApply": "Apply via Awin advertiser profile",
+   "source": "https://www.affilitizer.com/programs/crewclothing.co.uk"
+  }
+ },
+ {
+  "id": "debenhams",
+  "name": "Debenhams",
+  "website": "https://www.debenhams.com/",
+  "size": "Big",
+  "tier": "£",
+  "category": "Retailer",
+  "occasions": [
+   "Office",
+   "Wedding",
+   "Weekend"
+  ],
+  "notes": "Now an online marketplace; 3% on web sales, 1% on app sales",
+  "affiliate": {
+   "network": "Awin",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": "3%",
+   "applyUrl": "https://ui.awin.com/merchant-profile/22735",
+   "howToApply": "Apply via Awin advertiser profile (ID 22735)",
+   "source": "https://ui.awin.com/merchant-profile/22735"
+  }
+ },
+ {
+  "id": "dr-martens",
+  "name": "Dr. Martens",
+  "website": "https://www.drmartens.com/uk/en_gb",
+  "size": "Big",
+  "tier": "£££",
+  "category": "Footwear",
+  "occasions": [
+   "Pub",
+   "Weekend",
+   "Date"
+  ],
+  "notes": "Iconic 1460 boots and loafers, pub and weekend staples",
+  "affiliate": {
+   "network": "Daisycon",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": "https://www.daisycon.com/no/kampanjer/15138-dr-martens-eu/",
+   "howToApply": "Apply via Daisycon (Dr. Martens EU programme); check that it covers the UK",
+   "source": "https://www.affilitizer.com/programs/www.drmartens.com"
+  }
+ },
+ {
+  "id": "drake-s",
+  "name": "Drake's",
+  "website": "https://www.drakes.com/",
+  "size": "Small",
+  "tier": "£££",
+  "category": "Premium",
+  "occasions": [
+   "Wedding",
+   "Office",
+   "Date",
+   "Interview"
+  ],
+  "notes": "10% on full-price sales; product feed provided",
+  "affiliate": {
+   "network": "Awin",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": "10%",
+   "applyUrl": "https://ui.awin.com/merchant-profile/16843",
+   "howToApply": "Apply via Awin advertiser profile (Drake's UK, ID 16843)",
+   "source": "https://ui.awin.com/merchant-profile-terms/16843"
+  }
+ },
+ {
+  "id": "embassy-london",
+  "name": "Embassy London",
+  "website": "https://embassylondon.co.uk/",
+  "size": "Small",
+  "tier": "££",
+  "category": "Footwear",
+  "occasions": [
+   "Date",
+   "Weekend",
+   "Office",
+   "Pub"
+  ],
+  "notes": "London-designed leather trainers, brogues and boots for smart-casual and dates",
+  "affiliate": {
+   "network": "Awin",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": "4% base",
+   "applyUrl": "https://ui.awin.com/merchant-profile/123120",
+   "howToApply": "Apply via the Embassy London UK Awin profile (ID 123120)",
+   "source": "https://ui.awin.com/merchant-profile/123120"
+  }
+ },
+ {
+  "id": "end-clothing",
+  "name": "END. Clothing",
+  "website": "https://www.endclothing.com/gb/",
+  "size": "Big",
+  "tier": "£££",
+  "category": "Retailer",
+  "occasions": [
+   "Weekend",
+   "Date",
+   "Pub"
+  ],
+  "notes": "Streetwear to designer; one deal covers hundreds of brands",
+  "affiliate": {
+   "network": "Impact",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": "https://www.endclothing.com/affiliate-program/",
+   "howToApply": "Create a media partner account through the Impact link on their affiliate page, or email affiliates@endclothing.com (listed on that page)",
+   "source": "https://www.endclothing.com/affiliate-program/"
+  }
+ },
+ {
+  "id": "ettinger",
+  "name": "Ettinger",
+  "website": "https://www.ettinger.co.uk",
+  "size": "Small",
+  "tier": "£££",
+  "category": "Accessories",
+  "occasions": [
+   "Office",
+   "Interview",
+   "Wedding"
+  ],
+  "notes": "Royal Warrant-holding British leather wallets and cardholders",
+  "affiliate": {
+   "network": "Rakuten",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": "https://www.affilitizer.com/programs/ettinger.co.uk",
+   "howToApply": "Apply via Rakuten Advertising",
+   "source": "https://www.affilitizer.com/programs/ettinger.co.uk"
+  }
+ },
+ {
+  "id": "farah",
+  "name": "Farah",
+  "website": "https://www.farah.co.uk/",
+  "size": "Mid",
+  "tier": "££",
+  "category": "High street",
+  "occasions": [
+   "Pub",
+   "Weekend",
+   "Office",
+   "Date"
+  ],
+  "notes": "Smart-casual trousers and shirts; same owner as Original Penguin, so pitch together",
+  "affiliate": {
+   "network": "Awin",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": "6% default, 3% voucher",
+   "applyUrl": "https://ui.awin.com/merchant-profile/11558",
+   "howToApply": "Apply via Awin (ID 11558); programme contact farahshopify@pery.com (listed on the Awin profile)",
+   "source": "https://ui.awin.com/merchant-profile/11558"
+  }
+ },
+ {
+  "id": "farfetch",
+  "name": "Farfetch",
+  "website": "https://www.farfetch.com/uk/",
+  "size": "Big",
+  "tier": "£££",
+  "category": "Retailer",
+  "occasions": [
+   "Wedding",
+   "Date",
+   "Office"
+  ],
+  "notes": "Luxury marketplace with a huge designer range",
+  "affiliate": {
+   "network": "Partnerize",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": "https://www.affilitizer.com/programs/farfetch.com",
+   "howToApply": "Apply to the Farfetch UK campaign on Partnerize",
+   "source": "https://www.affilitizer.com/programs/farfetch.com"
+  }
+ },
+ {
+  "id": "fatface",
+  "name": "FatFace",
+  "website": "https://www.fatface.com/",
+  "size": "Mid",
+  "tier": "££",
+  "category": "High street",
+  "occasions": [
+   "Weekend",
+   "Pub"
+  ],
+  "notes": "Relaxed coastal casualwear; lower rate during sales",
+  "affiliate": {
+   "network": "Awin",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": "3% (1% for voucher sites and during sale periods)",
+   "applyUrl": "https://ui.awin.com/merchant-profile/9275",
+   "howToApply": "Apply via Awin advertiser profile (ID 9275)",
+   "source": "https://ui.awin.com/merchant-profile/9275"
+  }
+ },
+ {
+  "id": "fenwick",
+  "name": "Fenwick",
+  "website": "https://www.fenwick.co.uk/",
+  "size": "Mid",
+  "tier": "£££",
+  "category": "Retailer",
+  "occasions": [
+   "Wedding",
+   "Office",
+   "Date"
+  ],
+  "notes": "Regional premium department store, strong in the North East",
+  "affiliate": {
+   "network": "Partnerize",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": "https://www.affilitizer.com/programs/fenwick.co.uk",
+   "howToApply": "Apply on Partnerize (it is also listed on Rakuten)",
+   "source": "https://www.affilitizer.com/programs/fenwick.co.uk"
+  }
+ },
+ {
+  "id": "finisterre",
+  "name": "Finisterre",
+  "website": "https://finisterre.com/",
+  "size": "Mid",
+  "tier": "£££",
+  "category": "Outdoor & heritage",
+  "occasions": [
+   "Weekend",
+   "Pub",
+   "Date"
+  ],
+  "notes": "Cornish surf/outdoor B Corp; shirts £100-£175",
+  "affiliate": {
+   "network": "None found",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": "https://finisterre.com/pages/contact",
+   "howToApply": "Contact form on site (no partnership email listed)",
+   "source": "https://finisterre.com/pages/contact"
+  }
+ },
+ {
+  "id": "flannels",
+  "name": "Flannels",
+  "website": "https://www.flannels.com/",
+  "size": "Big",
+  "tier": "£££",
+  "category": "Retailer",
+  "occasions": [
+   "Date",
+   "Weekend",
+   "Pub"
+  ],
+  "notes": "Frasers Group luxury; dropped Flexoffers in Apr 2026, now Partnerize only",
+  "affiliate": {
+   "network": "Partnerize",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": "https://www.affilitizer.com/programs/flannels.com",
+   "howToApply": "Apply to Flannels UK on Partnerize",
+   "source": "https://www.affilitizer.com/programs/flannels.com"
+  }
+ },
+ {
+  "id": "folk",
+  "name": "Folk",
+  "website": "https://www.folkclothing.com/",
+  "size": "Small",
+  "tier": "£££",
+  "category": "Independent",
+  "occasions": [
+   "Weekend",
+   "Pub",
+   "Date"
+  ],
+  "notes": "Independent London label",
+  "affiliate": {
+   "network": "None found",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": null,
+   "howToApply": "No affiliate programme found; use the general contact page on their site",
+   "source": "https://www.folkclothing.com/"
+  }
+ },
+ {
+  "id": "fossil",
+  "name": "Fossil",
+  "website": "https://www.fossil.com/en-gb/",
+  "size": "Big",
+  "tier": "££",
+  "category": "Accessories",
+  "occasions": [
+   "Office",
+   "Weekend",
+   "Date"
+  ],
+  "notes": "Mid-price watches, leather wallets and belts",
+  "affiliate": {
+   "network": "Rakuten",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": "https://www.affilitizer.com/programs/fossil.com",
+   "howToApply": "Apply via Rakuten Advertising (Fossil UK)",
+   "source": "https://www.affilitizer.com/programs/fossil.com"
+  }
+ },
+ {
+  "id": "fred-perry",
+  "name": "Fred Perry",
+  "website": "https://www.fredperry.com/",
+  "size": "Big",
+  "tier": "££",
+  "category": "Outdoor & heritage",
+  "occasions": [
+   "Pub",
+   "Date",
+   "Weekend"
+  ],
+  "notes": "Classic polo for pub and date looks; also sold via END., Mainline and other retailers here",
+  "affiliate": {
+   "network": "None found",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": null,
+   "howToApply": "No affiliate programme found; approach the brand directly",
+   "source": null
+  }
+ },
+ {
+  "id": "gap",
+  "name": "GAP",
+  "website": "https://www.gap.co.uk/",
+  "size": "Big",
+  "tier": "£",
+  "category": "High street",
+  "occasions": [
+   "Weekend",
+   "Pub"
+  ],
+  "notes": "UK online store is operated by Next",
+  "affiliate": {
+   "network": "Rakuten",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": "https://www.affilitizer.com/programs/gap.co.uk",
+   "howToApply": "Apply via Rakuten Advertising (GAP UK)",
+   "source": "https://www.affilitizer.com/programs/gap.co.uk"
+  }
+ },
+ {
+  "id": "grenson",
+  "name": "Grenson",
+  "website": "https://www.grenson.com",
+  "size": "Mid",
+  "tier": "£££",
+  "category": "Footwear",
+  "occasions": [
+   "Wedding",
+   "Date",
+   "Weekend"
+  ],
+  "notes": "Fashion-forward Goodyear-welted brogues and boots",
+  "affiliate": {
+   "network": "Rakuten",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": "https://www.affilitizer.com/programs/grenson.com",
+   "howToApply": "Apply via Rakuten Advertising",
+   "source": "https://www.affilitizer.com/programs/grenson.com"
+  }
+ },
+ {
+  "id": "gymshark",
+  "name": "Gymshark",
+  "website": "https://uk.gymshark.com/",
+  "size": "Big",
+  "tier": "£",
+  "category": "Sportswear",
+  "occasions": [
+   "Weekend"
+  ],
+  "notes": "Gymwear worn as casual; huge young male audience",
+  "affiliate": {
+   "network": "Partnerize",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": null,
+   "howToApply": "Apply via Partnerize; listings conflict, so confirm with Gymshark's affiliate team",
+   "source": "https://www.affilitizer.com/programs/uk.gymshark.com"
+  }
+ },
+ {
+  "id": "hackett",
+  "name": "Hackett",
+  "website": "https://www.hackett.com/gb/",
+  "size": "Mid",
+  "tier": "£££",
+  "category": "Premium",
+  "occasions": [
+   "Wedding",
+   "Interview",
+   "Office"
+  ],
+  "notes": "Classic British tailoring; programme looks paused",
+  "affiliate": {
+   "network": "Awin",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": "https://affi.io/m/hackett",
+   "howToApply": "UK programme on Awin is listed as closed; ask Hackett directly whether it will reopen",
+   "source": "https://affi.io/m/hackett"
+  }
+ },
+ {
+  "id": "harrods",
+  "name": "Harrods",
+  "website": "https://www.harrods.com/en-gb/",
+  "size": "Big",
+  "tier": "£££",
+  "category": "Retailer",
+  "occasions": [
+   "Wedding",
+   "Date",
+   "Office"
+  ],
+  "notes": "Top-end luxury; Harrods UK has been on Partnerize since Jan 2026",
+  "affiliate": {
+   "network": "Partnerize",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": "https://www.affilitizer.com/programs/harrods.com",
+   "howToApply": "Apply to the Harrods UK campaign on Partnerize (it is also on Rakuten for other regions)",
+   "source": "https://www.affilitizer.com/programs/harrods.com"
+  }
+ },
+ {
+  "id": "harvey-nichols",
+  "name": "Harvey Nichols",
+  "website": "https://www.harveynichols.com/",
+  "size": "Big",
+  "tier": "£££",
+  "category": "Retailer",
+  "occasions": [
+   "Wedding",
+   "Date",
+   "Office"
+  ],
+  "notes": "Was on Partnerize until Nov 2026; may come back",
+  "affiliate": {
+   "network": "None found",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": null,
+   "howToApply": "Programme inactive. It was removed from Partnerize and Flexoffers on 3 Nov 2026; check back or contact through the main site",
+   "source": "https://www.affilitizer.com/programs/harveynichols.com"
+  }
+ },
+ {
+  "id": "hawes-curtis",
+  "name": "Hawes & Curtis",
+  "website": "https://www.hawesandcurtis.co.uk/",
+  "size": "Mid",
+  "tier": "££",
+  "category": "Tailoring",
+  "occasions": [
+   "Office",
+   "Interview",
+   "Wedding"
+  ],
+  "notes": "Jermyn Street shirtmaker; good value formal shirts",
+  "affiliate": {
+   "network": "Awin",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": "https://ui.awin.com/merchant-profile/3321",
+   "howToApply": "Apply via Awin advertiser profile (ID 3321)",
+   "source": "https://www.affilitizer.com/programs/hawesandcurtis.co.uk"
+  }
+ },
+ {
+  "id": "hawkins-shepherd",
+  "name": "Hawkins & Shepherd",
+  "website": "https://www.hawkinsandshepherd.com/",
+  "size": "Small",
+  "tier": "££",
+  "category": "Independent",
+  "occasions": [
+   "Office",
+   "Interview",
+   "Wedding"
+  ],
+  "notes": "Pin-collar and formal shirt specialist, shirts £85-£95",
+  "affiliate": {
+   "network": "None found",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": "https://www.hawkinsandshepherd.com/",
+   "howToApply": "Contact Us page; site lists customerservices@pincollarshirts.co.uk",
+   "source": "https://www.hawkinsandshepherd.com/"
+  }
+ },
+ {
+  "id": "hiut-denim",
+  "name": "Hiut Denim",
+  "website": "https://hiutdenim.co.uk/",
+  "size": "Small",
+  "tier": "£££",
+  "category": "Independent",
+  "occasions": [
+   "Weekend",
+   "Pub",
+   "Date"
+  ],
+  "notes": "Cardigan, Wales jeans maker; no discount codes allowed",
+  "affiliate": {
+   "network": "Awin",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": "https://hiutdenim.co.uk/pages/hiut-affiliate-program",
+   "howToApply": "Join via 'Join the programme' on their affiliate page (Awin); questions to jasmine@hiutdenim.co.uk (listed on that page)",
+   "source": "https://ui.awin.com/merchant-profile-terms/122140"
+  }
+ },
+ {
+  "id": "house-of-cavani",
+  "name": "House of Cavani",
+  "website": "https://www.cavani.co.uk/",
+  "size": "Mid",
+  "tier": "££",
+  "category": "Tailoring",
+  "occasions": [
+   "Wedding",
+   "Interview",
+   "Office",
+   "Date"
+  ],
+  "notes": "Wedding and formal suits around £225-£300; no brand bidding in PPC",
+  "affiliate": {
+   "network": "Awin",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": "https://ui.awin.com/merchant-profile/77928",
+   "howToApply": "Apply via the Awin merchant profile (ID 77928); a Webgains listing also exists",
+   "source": "https://ui.awin.com/merchant-profile/77928"
+  }
+ },
+ {
+  "id": "house-of-fraser",
+  "name": "House of Fraser",
+  "website": "https://www.houseoffraser.co.uk/",
+  "size": "Big",
+  "tier": "££",
+  "category": "Retailer",
+  "occasions": [
+   "Wedding",
+   "Office",
+   "Interview",
+   "Weekend"
+  ],
+  "notes": "Frasers Group; broad mid-price brand mix including suiting",
+  "affiliate": {
+   "network": "Partnerize",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": "https://www.affilitizer.com/programs/houseoffraser.co.uk",
+   "howToApply": "Apply to House of Fraser on Partnerize",
+   "source": "https://www.affilitizer.com/programs/houseoffraser.co.uk"
+  }
+ },
+ {
+  "id": "howies",
+  "name": "Howies",
+  "website": "https://www.howies.co.uk/",
+  "size": "Small",
+  "tier": "££",
+  "category": "Independent",
+  "occasions": [
+   "Weekend",
+   "Pub"
+  ],
+  "notes": "Welsh organic and merino casualwear",
+  "affiliate": {
+   "network": "None found",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": "https://www.howies.co.uk/pages/help",
+   "howToApply": "Contact Us / help page on site",
+   "source": "https://www.howies.co.uk/"
+  }
+ },
+ {
+  "id": "hugo-boss",
+  "name": "Hugo Boss",
+  "website": "https://www.hugoboss.com/uk/",
+  "size": "Big",
+  "tier": "£££",
+  "category": "Premium",
+  "occasions": [
+   "Interview",
+   "Office",
+   "Wedding",
+   "Date"
+  ],
+  "notes": "Big suiting range",
+  "affiliate": {
+   "network": "Awin",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": "https://affi.io/m/hugo-boss",
+   "howToApply": "Apply via Awin advertiser profile (HUGO BOSS GB)",
+   "source": "https://affi.io/m/hugo-boss"
+  }
+ },
+ {
+  "id": "hunter",
+  "name": "Hunter",
+  "website": "https://www.hunterboots.com/",
+  "size": "Mid",
+  "tier": "££",
+  "category": "Outdoor & heritage",
+  "occasions": [
+   "Weekend",
+   "Pub"
+  ],
+  "notes": "Wellies and rainwear; mostly footwear",
+  "affiliate": {
+   "network": "CJ",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": "https://www.affilitizer.com/programs/hunterboots.com",
+   "howToApply": "Apply to Hunter Boots on CJ",
+   "source": "https://www.affilitizer.com/programs/hunterboots.com"
+  }
+ },
+ {
+  "id": "hush-puppies",
+  "name": "Hush Puppies",
+  "website": "https://www.hushpuppies.co.uk",
+  "size": "Mid",
+  "tier": "££",
+  "category": "Footwear",
+  "occasions": [
+   "Office",
+   "Weekend"
+  ],
+  "notes": "Comfortable, affordable suede shoes and desert boots",
+  "affiliate": {
+   "network": "Awin",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": "https://hushpuppies.co.uk/pages/affiliates",
+   "howToApply": "Affiliates page links to the Awin merchant profile",
+   "source": "https://hushpuppies.co.uk/pages/affiliates"
+  }
+ },
+ {
+  "id": "jacamo",
+  "name": "Jacamo",
+  "website": "https://www.jacamo.co.uk/",
+  "size": "Mid",
+  "tier": "£",
+  "category": "High street",
+  "occasions": [
+   "Weekend",
+   "Pub",
+   "Office"
+  ],
+  "notes": "N Brown group; big-and-tall specialist",
+  "affiliate": {
+   "network": "Awin",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": "https://ui.awin.com/merchant-profile/3026",
+   "howToApply": "Apply via Awin advertiser profile (ID 3026); its Awin profile lists uk-jdwilliams@awin.com as the contact",
+   "source": "https://ui.awin.com/merchant-profile-terms/3026"
+  }
+ },
+ {
+  "id": "jack-jones",
+  "name": "Jack & Jones",
+  "website": "https://www.jackjones.com/en-gb",
+  "size": "Big",
+  "tier": "£",
+  "category": "High street",
+  "occasions": [
+   "Pub",
+   "Weekend",
+   "Date"
+  ],
+  "notes": "Bestseller brand; denim and casualwear",
+  "affiliate": {
+   "network": "Partnerize",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": "https://join.partnerize.com/bestsellergroup/en",
+   "howToApply": "Apply via Partnerize (Bestseller group programme)",
+   "source": "https://www.affilitizer.com/programs/jackjones.com"
+  }
+ },
+ {
+  "id": "joe-browns",
+  "name": "Joe Browns",
+  "website": "https://www.joebrowns.co.uk/",
+  "size": "Mid",
+  "tier": "££",
+  "category": "High street",
+  "occasions": [
+   "Pub",
+   "Weekend",
+   "Date"
+  ],
+  "notes": "Bold printed shirts, sizes up to 3XL",
+  "affiliate": {
+   "network": "Awin",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": "5% base, content publishers from 10%",
+   "applyUrl": "https://www.joebrowns.co.uk/affiliates",
+   "howToApply": "Apply via Awin (ID 1120), linked from the Affiliates page in their footer",
+   "source": "https://ui.awin.com/merchant-profile/1120"
+  }
+ },
+ {
+  "id": "john-lewis",
+  "name": "John Lewis",
+  "website": "https://www.johnlewis.com/",
+  "size": "Big",
+  "tier": "££",
+  "category": "Retailer",
+  "occasions": [
+   "Wedding",
+   "Office",
+   "Interview",
+   "Weekend"
+  ],
+  "notes": "Multi-brand department store; covers all price levels",
+  "affiliate": {
+   "network": "Impact",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": "https://www.prolificnorth.co.uk/news/newcastles-silverbean-appointed-john-lewis-lead-affiliate-programme/",
+   "howToApply": "Programme runs on impact.com and is managed by the agency Silverbean",
+   "source": "https://www.prolificnorth.co.uk/news/newcastles-silverbean-appointed-john-lewis-lead-affiliate-programme/"
+  }
+ },
+ {
+  "id": "john-smedley",
+  "name": "John Smedley",
+  "website": "https://www.johnsmedley.com/",
+  "size": "Mid",
+  "tier": "£££",
+  "category": "Premium",
+  "occasions": [
+   "Office",
+   "Date",
+   "Interview"
+  ],
+  "notes": "Fine knitwear made in England",
+  "affiliate": {
+   "network": "Impact",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": "https://www.affilitizer.com/programs/johnsmedley.com",
+   "howToApply": "Apply via impact.com (John Smedley Ltd, GB)",
+   "source": "https://www.affilitizer.com/programs/johnsmedley.com"
+  }
+ },
+ {
+  "id": "jones-bootmaker",
+  "name": "Jones Bootmaker",
+  "website": "https://www.jonesbootmaker.com/",
+  "size": "Mid",
+  "tier": "££",
+  "category": "Footwear",
+  "occasions": [
+   "Office",
+   "Interview",
+   "Wedding",
+   "Date"
+  ],
+  "notes": "Mid-price leather formal shoes and boots; daily feed",
+  "affiliate": {
+   "network": "Awin",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": "6% new customers, 3% existing",
+   "applyUrl": "https://ui.awin.com/merchant-profile/28195",
+   "howToApply": "Apply via the Jones Bootmaker UK Awin profile (ID 28195)",
+   "source": "https://ui.awin.com/merchant-profile/28195"
+  }
+ },
+ {
+  "id": "joules",
+  "name": "Joules",
+  "website": "https://www.joules.com/",
+  "size": "Mid",
+  "tier": "££",
+  "category": "High street",
+  "occasions": [
+   "Weekend",
+   "Pub"
+  ],
+  "notes": "Country-casual; now owned by Next",
+  "affiliate": {
+   "network": "Rakuten",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": "https://www.affilitizer.com/programs/joules.com",
+   "howToApply": "Apply via Rakuten Advertising",
+   "source": "https://www.affilitizer.com/programs/joules.com"
+  }
+ },
+ {
+  "id": "jules-b",
+  "name": "Jules B",
+  "website": "https://www.julesb.co.uk/",
+  "size": "Small",
+  "tier": "££",
+  "category": "Independent",
+  "occasions": [
+   "Weekend",
+   "Date",
+   "Office"
+  ],
+  "notes": "Newcastle independent with premium brands",
+  "affiliate": {
+   "network": "Rakuten",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": "https://www.affilitizer.com/programs/julesb.co.uk",
+   "howToApply": "Find Jules B in the Rakuten Advertising marketplace and apply",
+   "source": "https://www.affilitizer.com/programs/julesb.co.uk"
+  }
+ },
+ {
+  "id": "kestin",
+  "name": "Kestin",
+  "website": "https://www.kestin.co/",
+  "size": "Small",
+  "tier": "£££",
+  "category": "Independent",
+  "occasions": [
+   "Weekend",
+   "Date"
+  ],
+  "notes": "Edinburgh label",
+  "affiliate": {
+   "network": "None found",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": null,
+   "howToApply": "No active programme (left Awin July 2026); contact the brand directly",
+   "source": "https://www.affilitizer.com/programs/kestin.co"
+  }
+ },
+ {
+  "id": "kurt-geiger",
+  "name": "Kurt Geiger",
+  "website": "https://www.kurtgeiger.com",
+  "size": "Big",
+  "tier": "£££",
+  "category": "Footwear",
+  "occasions": [
+   "Date",
+   "Wedding",
+   "Pub"
+  ],
+  "notes": "Statement men's loafers and boots for nights out",
+  "affiliate": {
+   "network": "Partnerize",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": "https://www.affilitizer.com/programs/kurtgeiger.com",
+   "howToApply": "Apply via Partnerize (Kurt Geiger UK)",
+   "source": "https://www.affilitizer.com/programs/kurtgeiger.com"
+  }
+ },
+ {
+  "id": "lacoste",
+  "name": "Lacoste",
+  "website": "https://www.lacoste.com/gb/",
+  "size": "Big",
+  "tier": "££",
+  "category": "Premium",
+  "occasions": [
+   "Weekend",
+   "Date",
+   "Pub",
+   "Office"
+  ],
+  "notes": "Content publishers get the top rate, which suits an outfit site",
+  "affiliate": {
+   "network": "Awin",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": "10% content publishers",
+   "applyUrl": "https://ui.awin.com/merchant-profile/15878",
+   "howToApply": "Apply via the Awin merchant profile (ID 15878)",
+   "source": "https://ui.awin.com/merchant-profile/15878"
+  }
+ },
+ {
+  "id": "lavenham",
+  "name": "Lavenham",
+  "website": "https://www.lavenhamjackets.com/",
+  "size": "Small",
+  "tier": "£££",
+  "category": "Outdoor & heritage",
+  "occasions": [
+   "Weekend",
+   "Pub",
+   "Office"
+  ],
+  "notes": "Suffolk quilted jackets since 1969",
+  "affiliate": {
+   "network": "None found",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": "https://www.lavenhamjackets.com/",
+   "howToApply": "Email customerservice@lavenhamjackets.com (listed on site)",
+   "source": "https://www.lavenhamjackets.com/"
+  }
+ },
+ {
+  "id": "levi-s",
+  "name": "Levi's",
+  "website": "https://www.levi.com/GB/en_GB/",
+  "size": "Big",
+  "tier": "££",
+  "category": "High street",
+  "occasions": [
+   "Weekend",
+   "Pub",
+   "Date"
+  ],
+  "notes": "Denim staple for casual looks",
+  "affiliate": {
+   "network": "Impact",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": "https://www.levi.com/ES/en/features/affiliate-program",
+   "howToApply": "Affiliate page on levi.com says the programme runs on Impact; confirm it covers the UK",
+   "source": "https://www.levi.com/ES/en/features/affiliate-program"
+  }
+ },
+ {
+  "id": "liberty-london",
+  "name": "Liberty London",
+  "website": "https://www.libertylondon.com/uk/",
+  "size": "Mid",
+  "tier": "£££",
+  "category": "Retailer",
+  "occasions": [
+   "Wedding",
+   "Date",
+   "Office"
+  ],
+  "notes": "Known for print shirts and accessories; strong for weddings",
+  "affiliate": {
+   "network": "Partnerize",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": "https://www.libertylondon.com/uk/information/the-liberty-london-affiliate-program.html",
+   "howToApply": "Use 'Apply to be an affiliate' on their affiliate programme page (Partnerize form)",
+   "source": "https://www.libertylondon.com/uk/information/the-liberty-london-affiliate-program.html"
+  }
+ },
+ {
+  "id": "loake",
+  "name": "Loake",
+  "website": "https://www.loake.com/",
+  "size": "Mid",
+  "tier": "£££",
+  "category": "Footwear",
+  "occasions": [
+   "Wedding",
+   "Interview",
+   "Office"
+  ],
+  "notes": "Northampton Goodyear-welted brogues and Oxfords at accessible prices, ideal for weddings",
+  "affiliate": {
+   "network": "None found",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": "https://www.loake.com/contact-us/",
+   "howToApply": "No affiliates page found; approach through the Contact page",
+   "source": "https://www.loake.com/"
+  }
+ },
+ {
+  "id": "luca-faloni",
+  "name": "Luca Faloni",
+  "website": "https://lucafaloni.com/en/gb",
+  "size": "Small",
+  "tier": "£££",
+  "category": "Premium",
+  "occasions": [
+   "Date",
+   "Wedding",
+   "Office"
+  ],
+  "notes": "Italian-made knits and linen; profile currently prefers US publishers",
+  "affiliate": {
+   "network": "Awin",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": "https://ui.awin.com/merchant-profile/28487",
+   "howToApply": "Apply via Awin advertiser profile (Luca Faloni UK, ID 28487)",
+   "source": "https://ui.awin.com/merchant-profile/28487"
+  }
+ },
+ {
+  "id": "lyle-scott",
+  "name": "Lyle & Scott",
+  "website": "https://www.lyleandscott.com/",
+  "size": "Mid",
+  "tier": "££",
+  "category": "Outdoor & heritage",
+  "occasions": [
+   "Pub",
+   "Weekend",
+   "Date"
+  ],
+  "notes": "Scottish knitwear and polos; 30-day cookie; left CJ in Sep 2026",
+  "affiliate": {
+   "network": "Awin",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": "5% (8% new customers)",
+   "applyUrl": "https://ui.awin.com/merchant-profile/24469",
+   "howToApply": "Apply via Awin advertiser profile (ID 24469)",
+   "source": "https://ui.awin.com/merchant-profile/24469"
+  }
+ },
+ {
+  "id": "mainline-menswear",
+  "name": "Mainline Menswear",
+  "website": "https://www.mainlinemenswear.co.uk/",
+  "size": "Mid",
+  "tier": "££",
+  "category": "Retailer",
+  "occasions": [
+   "Weekend",
+   "Pub",
+   "Date"
+  ],
+  "notes": "Menswear only, strong on branded casualwear",
+  "affiliate": {
+   "network": "Rakuten",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": "https://www.affilitizer.com/programs/mainlinemenswear.co.uk",
+   "howToApply": "Find Mainline in the Rakuten Advertising marketplace and apply",
+   "source": "https://www.affilitizer.com/programs/mainlinemenswear.co.uk"
+  }
+ },
+ {
+  "id": "mango-man",
+  "name": "Mango Man",
+  "website": "https://shop.mango.com/gb/en/h/men",
+  "size": "Big",
+  "tier": "£",
+  "category": "High street",
+  "occasions": [
+   "Date",
+   "Office",
+   "Weekend",
+   "Wedding"
+  ],
+  "notes": "Sharp smart-casual at high-street prices",
+  "affiliate": {
+   "network": "Rakuten",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": "https://shop.mango.com/gb/en/affiliate",
+   "howToApply": "Affiliate page on Mango's GB site; apply via Rakuten Advertising",
+   "source": "https://shop.mango.com/gb/en/affiliate"
+  }
+ },
+ {
+  "id": "marks-spencer",
+  "name": "Marks & Spencer",
+  "website": "https://www.marksandspencer.com/",
+  "size": "Big",
+  "tier": "£",
+  "category": "High street",
+  "occasions": [
+   "Office",
+   "Interview",
+   "Wedding",
+   "Weekend"
+  ],
+  "notes": "Strong for affordable suits and office basics; Ireland runs as a separate programme",
+  "affiliate": {
+   "network": "Awin",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": "5% (2% for voucher/cashback sites)",
+   "applyUrl": "https://ui.awin.com/merchant-profile/1402",
+   "howToApply": "Apply via Awin advertiser profile (M&S UK, ID 1402)",
+   "source": "https://ui.awin.com/merchant-profile-terms/1402"
+  }
+ },
+ {
+  "id": "massimo-dutti",
+  "name": "Massimo Dutti",
+  "website": "https://www.massimodutti.com/gb/",
+  "size": "Big",
+  "tier": "££",
+  "category": "High street",
+  "occasions": [
+   "Office",
+   "Date",
+   "Interview",
+   "Weekend"
+  ],
+  "notes": "Inditex brand; affordable smart tailoring",
+  "affiliate": {
+   "network": "Rakuten",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": "https://affi.io/m/massimo-dutti",
+   "howToApply": "Apply via Rakuten Advertising (Massimo Dutti UK)",
+   "source": "https://affi.io/m/massimo-dutti"
+  }
+ },
+ {
+  "id": "matalan",
+  "name": "Matalan",
+  "website": "https://www.matalan.co.uk/",
+  "size": "Big",
+  "tier": "£",
+  "category": "High street",
+  "occasions": [
+   "Weekend",
+   "Office",
+   "Pub"
+  ],
+  "notes": "Value basics and budget suits",
+  "affiliate": {
+   "network": "Partnerize",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": "https://www.affilitizer.com/programs/matalan.co.uk",
+   "howToApply": "Apply via Partnerize",
+   "source": "https://www.affilitizer.com/programs/matalan.co.uk"
+  }
+ },
+ {
+  "id": "moss",
+  "name": "Moss",
+  "website": "https://www.moss.co.uk/",
+  "size": "Big",
+  "tier": "££",
+  "category": "Tailoring",
+  "occasions": [
+   "Wedding",
+   "Interview",
+   "Office"
+  ],
+  "notes": "Strong for wedding suits; average order over £140, 30-day cookie; separate Moss Bros Hire programme",
+  "affiliate": {
+   "network": "Rakuten",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": "https://www.moss.co.uk/affiliates",
+   "howToApply": "Affiliates page in site footer; the Join links go to Rakuten (LinkShare)",
+   "source": "https://www.moss.co.uk/affiliates"
+  }
+ },
+ {
+  "id": "mountain-warehouse",
+  "name": "Mountain Warehouse",
+  "website": "https://www.mountainwarehouse.com/",
+  "size": "Big",
+  "tier": "£",
+  "category": "Outdoor & heritage",
+  "occasions": [
+   "Weekend"
+  ],
+  "notes": "Budget outdoor jackets and fleeces",
+  "affiliate": {
+   "network": "Rakuten",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": null,
+   "howToApply": "Apply to 'Mountain Warehouse UK' on Rakuten Advertising",
+   "source": "https://www.affilitizer.com/programs/mountainwarehouse.com"
+  }
+ },
+ {
+  "id": "mr-porter",
+  "name": "MR PORTER",
+  "website": "https://www.mrporter.com/en-gb/",
+  "size": "Big",
+  "tier": "£££",
+  "category": "Retailer",
+  "occasions": [
+   "Wedding",
+   "Interview",
+   "Date",
+   "Office"
+  ],
+  "notes": "Luxury multi-brand; affiliates are asked to check the product data feed; media deck available on request",
+  "affiliate": {
+   "network": "Partnerize",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": "https://www.mrporter.com/content/affiliates",
+   "howToApply": "Apply via the Apply Now link on their affiliates page (Partnerize sign-up), or email MRP_Affiliates@ynap.com (listed on that page)",
+   "source": "https://www.mrporter.com/content/affiliates"
+  }
+ },
+ {
+  "id": "musto",
+  "name": "Musto",
+  "website": "https://www.musto.com/",
+  "size": "Mid",
+  "tier": "££",
+  "category": "Outdoor & heritage",
+  "occasions": [
+   "Weekend",
+   "Pub"
+  ],
+  "notes": "Sailing heritage; 4% for incentive sites; a Webgains listing also exists",
+  "affiliate": {
+   "network": "Awin",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": "6%",
+   "applyUrl": "https://ui.awin.com/merchant-profile/32355",
+   "howToApply": "Apply via Awin advertiser profile (Musto UK, ID 32355)",
+   "source": "https://ui.awin.com/merchant-profile/32355"
+  }
+ },
+ {
+  "id": "neem-london",
+  "name": "Neem London",
+  "website": "https://www.neemlondon.com/",
+  "size": "Small",
+  "tier": "£££",
+  "category": "Independent",
+  "occasions": [
+   "Office",
+   "Date",
+   "Weekend"
+  ],
+  "notes": "Recycled and regenerative fibres, take-back scheme",
+  "affiliate": {
+   "network": "None found",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": "https://www.neemlondon.com/",
+   "howToApply": "Contact Us page (also Wholesale and Press links in footer)",
+   "source": "https://www.neemlondon.com/"
+  }
+ },
+ {
+  "id": "new-balance",
+  "name": "New Balance",
+  "website": "https://www.newbalance.co.uk",
+  "size": "Big",
+  "tier": "££",
+  "category": "Sportswear",
+  "occasions": [
+   "Weekend",
+   "Pub"
+  ],
+  "notes": "Dad-trainer staples (574, 990) for weekend outfits",
+  "affiliate": {
+   "network": "Impact",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": "https://www.affilitizer.com/programs/newbalance.co.uk",
+   "howToApply": "Apply via impact.com (New Balance EMEA); left Awin in May 2025",
+   "source": "https://www.affilitizer.com/programs/newbalance.co.uk"
+  }
+ },
+ {
+  "id": "new-look-men",
+  "name": "New Look Men",
+  "website": "https://www.newlook.com/uk/mens",
+  "size": "Big",
+  "tier": "£",
+  "category": "High street",
+  "occasions": [
+   "Pub",
+   "Weekend",
+   "Date"
+  ],
+  "notes": "Budget trend menswear; 30-day cookie",
+  "affiliate": {
+   "network": "Awin",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": "4% new customers, 1% existing",
+   "applyUrl": "https://ui.awin.com/merchant-profile/1946",
+   "howToApply": "Apply via Awin advertiser profile (ID 1946)",
+   "source": "https://ui.awin.com/merchant-profile/1946"
+  }
+ },
+ {
+  "id": "next",
+  "name": "Next",
+  "website": "https://www.next.co.uk/",
+  "size": "Big",
+  "tier": "£",
+  "category": "High street",
+  "occasions": [
+   "Office",
+   "Interview",
+   "Weekend",
+   "Wedding"
+  ],
+  "notes": "Also sells third-party brands; it runs Gap UK online",
+  "affiliate": {
+   "network": "Impact",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": "https://www.affilitizer.com/programs/next.co.uk",
+   "howToApply": "Apply via impact.com (Next Retail Ltd, GB). A Next UK listing also appears on Rakuten",
+   "source": "https://www.affilitizer.com/programs/next.co.uk"
+  }
+ },
+ {
+  "id": "nike",
+  "name": "Nike",
+  "website": "https://www.nike.com/gb",
+  "size": "Big",
+  "tier": "££",
+  "category": "Sportswear",
+  "occasions": [
+   "Weekend",
+   "Pub"
+  ],
+  "notes": "Some products are non-commissionable; profile doesn't name the region",
+  "affiliate": {
+   "network": "Awin",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": "https://ui.awin.com/merchant-profile/16327",
+   "howToApply": "Apply via Awin advertiser profile (NIKE, ID 16327); product feed offered",
+   "source": "https://ui.awin.com/merchant-profile/16327"
+  }
+ },
+ {
+  "id": "office",
+  "name": "Office",
+  "website": "https://www.office.co.uk",
+  "size": "Big",
+  "tier": "££",
+  "category": "Retailer",
+  "occasions": [
+   "Weekend",
+   "Pub",
+   "Date",
+   "Office"
+  ],
+  "notes": "Multi-brand footwear retailer",
+  "affiliate": {
+   "network": "Rakuten",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": "https://www.affilitizer.com/programs/office.co.uk",
+   "howToApply": "Apply via Rakuten Advertising (Office Shoes)",
+   "source": "https://www.affilitizer.com/programs/office.co.uk"
+  }
+ },
+ {
+  "id": "oi-polloi",
+  "name": "Oi Polloi",
+  "website": "https://www.oipolloi.com/",
+  "size": "Small",
+  "tier": "££",
+  "category": "Independent",
+  "occasions": [
+   "Weekend",
+   "Pub",
+   "Date"
+  ],
+  "notes": "Respected Manchester independent; would need a direct deal",
+  "affiliate": {
+   "network": "None found",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": null,
+   "howToApply": "No affiliate link in site footer; approach directly via Contact Us page",
+   "source": "https://www.oipolloi.com/"
+  }
+ },
+ {
+  "id": "oliver-brown",
+  "name": "Oliver Brown",
+  "website": "https://uk.oliverbrownlondon.com/",
+  "size": "Small",
+  "tier": "£££",
+  "category": "Tailoring",
+  "occasions": [
+   "Wedding",
+   "Office"
+  ],
+  "notes": "Country and race-day wear plus morning suits for weddings",
+  "affiliate": {
+   "network": "Awin",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": "https://ui.awin.com/merchant-profile/99015",
+   "howToApply": "Apply via Awin advertiser profile (ID 99015)",
+   "source": "https://ui.awin.com/merchant-profile-terms/99015"
+  }
+ },
+ {
+  "id": "oliver-spencer",
+  "name": "Oliver Spencer",
+  "website": "https://www.oliverspencer.co.uk/",
+  "size": "Mid",
+  "tier": "£££",
+  "category": "Premium",
+  "occasions": [
+   "Date",
+   "Weekend",
+   "Wedding",
+   "Pub"
+  ],
+  "notes": "Relaxed tailoring that works for smart-casual weddings",
+  "affiliate": {
+   "network": "Rakuten",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": "https://www.affilitizer.com/programs/oliverspencer.co.uk",
+   "howToApply": "Apply via Rakuten Advertising marketplace",
+   "source": "https://www.affilitizer.com/programs/oliverspencer.co.uk"
+  }
+ },
+ {
+  "id": "oliver-sweeney",
+  "name": "Oliver Sweeney",
+  "website": "https://www.oliversweeney.com",
+  "size": "Small",
+  "tier": "£££",
+  "category": "Footwear",
+  "occasions": [
+   "Date",
+   "Office",
+   "Wedding"
+  ],
+  "notes": "Modern British-designed, Italian-influenced dress shoes and boots",
+  "affiliate": {
+   "network": "Awin",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": "https://www.affilitizer.com/programs/oliversweeney.com",
+   "howToApply": "Apply via Awin (Oliver Sweeney Trading Limited)",
+   "source": "https://www.affilitizer.com/programs/oliversweeney.com"
+  }
+ },
+ {
+  "id": "original-penguin",
+  "name": "Original Penguin",
+  "website": "https://www.originalpenguin.co.uk/",
+  "size": "Mid",
+  "tier": "££",
+  "category": "High street",
+  "occasions": [
+   "Weekend",
+   "Pub",
+   "Date"
+  ],
+  "notes": "Polos around £60-£70; pitch alongside Farah",
+  "affiliate": {
+   "network": "Awin",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": "6% default, 3% voucher",
+   "applyUrl": "https://ui.awin.com/merchant-profile/11559",
+   "howToApply": "Apply via Awin (ID 11559); bespoke deals via opshopify@pery.com (listed on the Awin profile)",
+   "source": "https://ui.awin.com/merchant-profile/11559"
+  }
+ },
+ {
+  "id": "passenger",
+  "name": "Passenger",
+  "website": "https://passenger-clothing.com/",
+  "size": "Mid",
+  "tier": "££",
+  "category": "Outdoor & heritage",
+  "occasions": [
+   "Weekend",
+   "Pub"
+  ],
+  "notes": "Outdoor lifestyle, tree-planting story; creator programme needs 1k+ followers",
+  "affiliate": {
+   "network": "In-house",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": "Up to 8%",
+   "applyUrl": "https://eu.passenger-clothing.com/pages/roamers",
+   "howToApply": "Apply to 'Roamers' creator/affiliate programme via community portal",
+   "source": "https://eu.passenger-clothing.com/pages/roamers"
+  }
+ },
+ {
+  "id": "patagonia",
+  "name": "Patagonia",
+  "website": "https://eu.patagonia.com/gb/en/",
+  "size": "Big",
+  "tier": "££",
+  "category": "Outdoor & heritage",
+  "occasions": [
+   "Weekend",
+   "Pub"
+  ],
+  "notes": "Content publishers get a pay-per-click base rate; strong ethics angle",
+  "affiliate": {
+   "network": "Impact",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": "0.16 CPC base (content publishers)",
+   "applyUrl": "https://eu.patagonia.com/gb/en/affiliates.html",
+   "howToApply": "Use 'Apply Here' (Impact) on their EMEA affiliate page, or email affiliate.emea@patagonia.com (listed there)",
+   "source": "https://eu.patagonia.com/gb/en/affiliates.html"
+  }
+ },
+ {
+  "id": "paul-smith",
+  "name": "Paul Smith",
+  "website": "https://www.paulsmith.com/uk",
+  "size": "Big",
+  "tier": "£££",
+  "category": "Premium",
+  "occasions": [
+   "Wedding",
+   "Date",
+   "Office",
+   "Interview"
+  ],
+  "notes": "UK programme on Awin since May 2026",
+  "affiliate": {
+   "network": "Awin",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": "https://ui.awin.com/merchant-profile-terms/127481",
+   "howToApply": "Apply via Awin advertiser profile (Paul Smith UK, ID 127481)",
+   "source": "https://www.affilitizer.com/programs/paulsmith.com"
+  }
+ },
+ {
+  "id": "paynter-jacket-co",
+  "name": "Paynter Jacket Co",
+  "website": "https://paynter.co.uk/",
+  "size": "Small",
+  "tier": "£££",
+  "category": "Independent",
+  "occasions": [
+   "Weekend",
+   "Date"
+  ],
+  "notes": "Limited batch drops a few times a year, so stock is often unavailable",
+  "affiliate": {
+   "network": "None found",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": "https://paynter.co.uk/",
+   "howToApply": "Contact link on site",
+   "source": "https://paynter.co.uk/"
+  }
+ },
+ {
+  "id": "peacocks",
+  "name": "Peacocks",
+  "website": "https://www.peacocks.co.uk/",
+  "size": "Big",
+  "tier": "£",
+  "category": "High street",
+  "occasions": [
+   "Pub",
+   "Weekend",
+   "Office"
+  ],
+  "notes": "Budget menswear including shirts and chinos",
+  "affiliate": {
+   "network": "Rakuten",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": null,
+   "howToApply": "Apply via Rakuten Advertising",
+   "source": "https://www.affilitizer.com/programs/peacocks.co.uk"
+  }
+ },
+ {
+  "id": "peggs-son",
+  "name": "Peggs & Son",
+  "website": "https://www.peggsandson.com/",
+  "size": "Small",
+  "tier": "£££",
+  "category": "Independent",
+  "occasions": [
+   "Weekend",
+   "Date",
+   "Pub"
+  ],
+  "notes": "Brighton independent; shirts and knits about £75-£170",
+  "affiliate": {
+   "network": "None found",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": null,
+   "howToApply": "No affiliate programme found; email shop@peggsandson.com (listed in site footer) to propose a direct deal",
+   "source": "https://www.peggsandson.com/"
+  }
+ },
+ {
+  "id": "percival",
+  "name": "Percival",
+  "website": "https://www.percivalclo.com/",
+  "size": "Small",
+  "tier": "£££",
+  "category": "Independent",
+  "occasions": [
+   "Pub",
+   "Weekend",
+   "Date"
+  ],
+  "notes": "Only on Rakuten since May 2024; puts real effort into commerce content",
+  "affiliate": {
+   "network": "Rakuten",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": "https://www.affilitizer.com/programs/percivalclo.com",
+   "howToApply": "Apply via Rakuten Advertising marketplace",
+   "source": "https://www.affilitizer.com/programs/percivalclo.com"
+  }
+ },
+ {
+  "id": "peregrine-clothing",
+  "name": "Peregrine Clothing",
+  "website": "https://www.peregrineclothing.co.uk/",
+  "size": "Small",
+  "tier": "£££",
+  "category": "Outdoor & heritage",
+  "occasions": [
+   "Weekend",
+   "Pub",
+   "Office"
+  ],
+  "notes": "Made-in-England knitwear, jumpers £110-£165",
+  "affiliate": {
+   "network": "Awin",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": "5% new customers / 3% returning",
+   "applyUrl": "https://ui.awin.com/merchant-profile/80262",
+   "howToApply": "Apply via Awin advertiser profile",
+   "source": "https://ui.awin.com/merchant-profile-terms/80262"
+  }
+ },
+ {
+  "id": "pretty-green",
+  "name": "Pretty Green",
+  "website": "https://www.prettygreen.com/",
+  "size": "Mid",
+  "tier": "££",
+  "category": "Premium",
+  "occasions": [
+   "Pub",
+   "Date",
+   "Weekend"
+  ],
+  "notes": "Britpop label; strong for pub and gig-night outfits",
+  "affiliate": {
+   "network": "Awin",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": "Minimum 7%",
+   "applyUrl": "https://www.prettygreen.com/affiliates/",
+   "howToApply": "Join through Awin, linked from the brand's affiliates page",
+   "source": "https://www.prettygreen.com/affiliates/"
+  }
+ },
+ {
+  "id": "private-white-v-c",
+  "name": "Private White V.C.",
+  "website": "https://www.privatewhitevc.com/",
+  "size": "Small",
+  "tier": "£££",
+  "category": "Outdoor & heritage",
+  "occasions": [
+   "Weekend",
+   "Pub",
+   "Date"
+  ],
+  "notes": "Manchester-made outerwear",
+  "affiliate": {
+   "network": "None found",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": null,
+   "howToApply": "No affiliate programme found; use the contact page in the site footer",
+   "source": "https://www.privatewhitevc.com/"
+  }
+ },
+ {
+  "id": "psyche",
+  "name": "Psyche",
+  "website": "https://www.psyche.co.uk/",
+  "size": "Small",
+  "tier": "££",
+  "category": "Independent",
+  "occasions": [
+   "Date",
+   "Weekend",
+   "Pub"
+  ],
+  "notes": "Middlesbrough designer store, Frasers-owned since 2021; check the Webgains listing is still live",
+  "affiliate": {
+   "network": "Webgains",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": "8-10%",
+   "applyUrl": "https://www.webgains.com/public/en/directory/psyche-limited-affiliate-programme/",
+   "howToApply": "Apply via Webgains directory listing (manual approval)",
+   "source": "https://www.webgains.com/public/en/directory/psyche-limited-affiliate-programme/"
+  }
+ },
+ {
+  "id": "pull-bear",
+  "name": "Pull&Bear",
+  "website": "https://www.pullandbear.com/gb/",
+  "size": "Big",
+  "tier": "£",
+  "category": "High street",
+  "occasions": [
+   "Pub",
+   "Weekend"
+  ],
+  "notes": "Inditex youth brand; listing may be inactive. Zara itself has no affiliate programme",
+  "affiliate": {
+   "network": "Tradedoubler",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": "3.84%",
+   "applyUrl": "https://directory.tradedoubler.com/sv/programs/317297-PULL-and-BEAR-UK",
+   "howToApply": "Apply via Tradedoubler directory (Pull and Bear UK, programme 317297)",
+   "source": "https://directory.tradedoubler.com/sv/programs/317297-PULL-and-BEAR-UK"
+  }
+ },
+ {
+  "id": "ralph-lauren",
+  "name": "Ralph Lauren",
+  "website": "https://www.ralphlauren.co.uk/",
+  "size": "Big",
+  "tier": "£££",
+  "category": "Premium",
+  "occasions": [
+   "Wedding",
+   "Date",
+   "Office",
+   "Weekend"
+  ],
+  "notes": "Premium smart-casual; Oxford shirts and knits",
+  "affiliate": {
+   "network": "Partnerize",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": "https://www.affilitizer.com/programs/ralphlauren.co.uk",
+   "howToApply": "Apply via Partnerize (Ralph Lauren UK)",
+   "source": "https://www.affilitizer.com/programs/ralphlauren.co.uk"
+  }
+ },
+ {
+  "id": "rapanui",
+  "name": "Rapanui",
+  "website": "https://rapanuiclothing.com/",
+  "size": "Mid",
+  "tier": "£",
+  "category": "Independent",
+  "occasions": [
+   "Weekend",
+   "Pub"
+  ],
+  "notes": "Isle of Wight organic, circular-made basics",
+  "affiliate": {
+   "network": "Rakuten",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": "https://www.affilitizer.com/programs/rapanuiclothing.com",
+   "howToApply": "Apply via Rakuten Advertising marketplace (search Rapanui Clothing)",
+   "source": "https://www.affilitizer.com/programs/rapanuiclothing.com"
+  }
+ },
+ {
+  "id": "reiss",
+  "name": "Reiss",
+  "website": "https://www.reiss.com/",
+  "size": "Big",
+  "tier": "£££",
+  "category": "Premium",
+  "occasions": [
+   "Wedding",
+   "Interview",
+   "Office",
+   "Date"
+  ],
+  "notes": "Strong for wedding guests and interview suits; has an in-house affiliate manager",
+  "affiliate": {
+   "network": "Partnerize",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": "2%",
+   "applyUrl": "https://accessible.reiss.com/affiliates",
+   "howToApply": "Email affiliatesteam@reiss.com (listed on their affiliates page) or apply via Partnerize",
+   "source": "https://affi.io/m/reiss"
+  }
+ },
+ {
+  "id": "represent",
+  "name": "Represent",
+  "website": "https://representclo.com/",
+  "size": "Mid",
+  "tier": "£££",
+  "category": "Premium",
+  "occasions": [
+   "Weekend",
+   "Date"
+  ],
+  "notes": "Manchester streetwear label, now global; moved from Awin to Webgains in 2025",
+  "affiliate": {
+   "network": "Webgains",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": "https://representclo.com/pages/press-partnerships-wholesale",
+   "howToApply": "Apply via Webgains (programme ID 310380); also Press & Partnerships page",
+   "source": "https://www.affilitizer.com/programs/representclo.com"
+  }
+ },
+ {
+  "id": "river-island",
+  "name": "River Island",
+  "website": "https://www.riverisland.com/",
+  "size": "Big",
+  "tier": "£",
+  "category": "High street",
+  "occasions": [
+   "Pub",
+   "Date",
+   "Weekend"
+  ],
+  "notes": "Trend-led, younger customer; has an in-house affiliates and partnerships team",
+  "affiliate": {
+   "network": "Awin",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": "https://ui.awin.com/merchant-profile/103217",
+   "howToApply": "Apply via Awin advertiser profile (River Island UK & IE, ID 103217)",
+   "source": "https://ui.awin.com/merchant-profile-terms/103217"
+  }
+ },
+ {
+  "id": "russell-bromley",
+  "name": "Russell & Bromley",
+  "website": "https://www.russellandbromley.co.uk",
+  "size": "Mid",
+  "tier": "£££",
+  "category": "Footwear",
+  "occasions": [
+   "Wedding",
+   "Date",
+   "Office"
+  ],
+  "notes": "Premium British shoe retailer; loafers and Chelsea boots",
+  "affiliate": {
+   "network": "Rakuten",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": "https://www.affilitizer.com/programs/russellandbromley.co.uk",
+   "howToApply": "Apply via Rakuten Advertising",
+   "source": "https://www.affilitizer.com/programs/russellandbromley.co.uk"
+  }
+ },
+ {
+  "id": "sch-ffel",
+  "name": "Schöffel",
+  "website": "https://www.schoffelcountry.com/",
+  "size": "Mid",
+  "tier": "££",
+  "category": "Outdoor & heritage",
+  "occasions": [
+   "Weekend",
+   "Pub",
+   "Wedding"
+  ],
+  "notes": "Country clothing; 15% for content publishers, 2% for voucher sites",
+  "affiliate": {
+   "network": "Awin",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": "7%",
+   "applyUrl": "https://ui.awin.com/merchant-profile/87451",
+   "howToApply": "Apply via Awin advertiser profile (Schoffel Country, ID 87451)",
+   "source": "https://ui.awin.com/merchant-profile/87451"
+  }
+ },
+ {
+  "id": "schuh",
+  "name": "Schuh",
+  "website": "https://www.schuh.co.uk",
+  "size": "Big",
+  "tier": "££",
+  "category": "Retailer",
+  "occasions": [
+   "Weekend",
+   "Pub",
+   "Date"
+  ],
+  "notes": "Multi-brand trainers and boots; one feed covers many brands",
+  "affiliate": {
+   "network": "Awin",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": "10% new customers (content); 5% existing; 2% sale",
+   "applyUrl": "https://ui.awin.com/merchant-profile/2044",
+   "howToApply": "Apply via Awin advertiser profile (ID 2044); daily product feed of 3,000+ items",
+   "source": "https://ui.awin.com/merchant-profile/2044"
+  }
+ },
+ {
+  "id": "selected-homme",
+  "name": "Selected Homme",
+  "website": "https://www.selected.com/en-gb",
+  "size": "Mid",
+  "tier": "££",
+  "category": "High street",
+  "occasions": [
+   "Office",
+   "Date",
+   "Wedding",
+   "Interview"
+  ],
+  "notes": "Smart-casual Scandi tailoring; same Bestseller programme as Jack & Jones",
+  "affiliate": {
+   "network": "Partnerize",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": "up to 10%",
+   "applyUrl": "https://www.selected.com/en-gb/affiliatepage.html",
+   "howToApply": "Sign up via Partnerize (Bestseller group), linked from Selected's affiliate page",
+   "source": "https://www.selected.com/en-gb/affiliatepage.html"
+  }
+ },
+ {
+  "id": "selfridges",
+  "name": "Selfridges",
+  "website": "https://www.selfridges.com/GB/en/",
+  "size": "Big",
+  "tier": "£££",
+  "category": "Retailer",
+  "occasions": [
+   "Wedding",
+   "Date",
+   "Office",
+   "Interview"
+  ],
+  "notes": "Moved its global programme to Partnerize in 2022",
+  "affiliate": {
+   "network": "Partnerize",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": "https://www.affilitizer.com/programs/selfridges.com",
+   "howToApply": "Apply to the Selfridges campaign on Partnerize (only network it uses)",
+   "source": "https://performancein.com/news/2022/05/18/selfridges-chooses-partnerize-to-consolidate-its-global-affiliate-programme/"
+  }
+ },
+ {
+  "id": "silverstick",
+  "name": "Silverstick",
+  "website": "https://www.silverstick.co.uk/",
+  "size": "Small",
+  "tier": "££",
+  "category": "Outdoor & heritage",
+  "occasions": [
+   "Weekend",
+   "Pub"
+  ],
+  "notes": "Organic surf and outdoor wear",
+  "affiliate": {
+   "network": "None found",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": "https://www.silverstick.co.uk/",
+   "howToApply": "Email info@silverstick.co.uk (listed on site)",
+   "source": "https://www.silverstick.co.uk/"
+  }
+ },
+ {
+  "id": "simon-carter",
+  "name": "Simon Carter",
+  "website": "https://www.simoncarter.com",
+  "size": "Small",
+  "tier": "££",
+  "category": "Accessories",
+  "occasions": [
+   "Wedding",
+   "Office",
+   "Date"
+  ],
+  "notes": "Playful cufflinks and accessories; 30-day cookie",
+  "affiliate": {
+   "network": "Webgains",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": "8%",
+   "applyUrl": "https://webgains.com/public/en/directory/simon-carter-affiliate-programme",
+   "howToApply": "Apply via Webgains directory listing; datafeed of 467 products",
+   "source": "https://webgains.com/public/en/directory/simon-carter-affiliate-programme"
+  }
+ },
+ {
+  "id": "sirplus",
+  "name": "Sirplus",
+  "website": "https://sirplus.co.uk/",
+  "size": "Small",
+  "tier": "£££",
+  "category": "Independent",
+  "occasions": [
+   "Weekend",
+   "Date",
+   "Office"
+  ],
+  "notes": "London shirts made from surplus fabric",
+  "affiliate": {
+   "network": "None found",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": "https://sirplus.co.uk/pages/contact",
+   "howToApply": "Contact form on site",
+   "source": "https://sirplus.co.uk/"
+  }
+ },
+ {
+  "id": "size",
+  "name": "size?",
+  "website": "https://www.size.co.uk/",
+  "size": "Mid",
+  "tier": "££",
+  "category": "Retailer",
+  "occasions": [
+   "Weekend",
+   "Pub"
+  ],
+  "notes": "JD Group sneaker/streetwear; 30-day cookie",
+  "affiliate": {
+   "network": "Awin",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": "https://ui.awin.com/merchant-profile/2767",
+   "howToApply": "Apply via Awin advertiser profile (ID 2767)",
+   "source": "https://ui.awin.com/merchant-profile/2767"
+  }
+ },
+ {
+  "id": "slater-menswear",
+  "name": "Slater Menswear",
+  "website": "https://www.slaters.co.uk/",
+  "size": "Mid",
+  "tier": "£",
+  "category": "Tailoring",
+  "occasions": [
+   "Wedding",
+   "Interview",
+   "Office"
+  ],
+  "notes": "Glasgow chain with budget suits and shirts; strong for affordable wedding and interview looks",
+  "affiliate": {
+   "network": "Partnerize",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": null,
+   "howToApply": "Apply to the Slaters campaign on Partnerize; terms are visible only after you apply",
+   "source": "https://www.affilitizer.com/programs/slaters.co.uk"
+  }
+ },
+ {
+  "id": "smythson",
+  "name": "Smythson",
+  "website": "https://www.smythson.com",
+  "size": "Mid",
+  "tier": "£££",
+  "category": "Accessories",
+  "occasions": [
+   "Office",
+   "Interview"
+  ],
+  "notes": "Luxury leather wallets, notebooks and document cases",
+  "affiliate": {
+   "network": "Rakuten",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": "https://affsignal.com/merchant/Smythson",
+   "howToApply": "Apply via Rakuten Advertising (several other networks also listed)",
+   "source": "https://affsignal.com/merchant/Smythson"
+  }
+ },
+ {
+  "id": "spoke",
+  "name": "Spoke",
+  "website": "https://www.spoke-london.com/",
+  "size": "Small",
+  "tier": "££",
+  "category": "Independent",
+  "occasions": [
+   "Office",
+   "Weekend",
+   "Date"
+  ],
+  "notes": "Fit-focused chinos and trousers",
+  "affiliate": {
+   "network": "None found",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": "https://shopper.com/partnerships/spoke-london-com-affiliate-program",
+   "howToApply": "No direct network programme confirmed; only a Shopper.com sub-network listing",
+   "source": "https://shopper.com/partnerships/spoke-london-com-affiliate-program"
+  }
+ },
+ {
+  "id": "sports-direct",
+  "name": "Sports Direct",
+  "website": "https://www.sportsdirect.com/",
+  "size": "Big",
+  "tier": "£",
+  "category": "Retailer",
+  "occasions": [
+   "Weekend",
+   "Pub"
+  ],
+  "notes": "Big multi-brand range at budget prices; Frasers Group",
+  "affiliate": {
+   "network": "Partnerize",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": null,
+   "howToApply": "Apply to Sports Direct UK on Partnerize",
+   "source": "https://www.affilitizer.com/programs/sportsdirect.com"
+  }
+ },
+ {
+  "id": "suit-direct",
+  "name": "Suit Direct",
+  "website": "https://www.suitdirect.co.uk/",
+  "size": "Mid",
+  "tier": "£",
+  "category": "Tailoring",
+  "occasions": [
+   "Wedding",
+   "Interview",
+   "Office"
+  ],
+  "notes": "Value suits and shirt multibuys; daily datafeed",
+  "affiliate": {
+   "network": "Awin",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": "8% new customers, 3% existing",
+   "applyUrl": "https://ui.awin.com/merchant-profile/5787",
+   "howToApply": "Apply via the Awin merchant profile (ID 5787); the affiliate team's email is listed there",
+   "source": "https://ui.awin.com/merchant-profile/5787"
+  }
+ },
+ {
+  "id": "suitsupply",
+  "name": "Suitsupply",
+  "website": "https://suitsupply.com/en-gb/",
+  "size": "Big",
+  "tier": "££",
+  "category": "Tailoring",
+  "occasions": [
+   "Wedding",
+   "Interview",
+   "Office"
+  ],
+  "notes": "Best-value suits for weddings and interviews",
+  "affiliate": {
+   "network": "Awin",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": "https://affi.io/m/suitsupply",
+   "howToApply": "Apply via Awin advertiser profile (Suitsupply UK)",
+   "source": "https://ui.awin.com/merchant-profile/16225"
+  }
+ },
+ {
+  "id": "sunspel",
+  "name": "Sunspel",
+  "website": "https://www.sunspel.com/",
+  "size": "Mid",
+  "tier": "£££",
+  "category": "Premium",
+  "occasions": [
+   "Weekend",
+   "Date",
+   "Office"
+  ],
+  "notes": "Premium British tees, polos and knits; pays extra for exclusive collaborations",
+  "affiliate": {
+   "network": "In-house",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": "https://us.sunspel.com/pages/affiliates",
+   "howToApply": "Email affiliates@sunspel.com with your site and audience (listed on their affiliates page)",
+   "source": "https://us.sunspel.com/pages/affiliates"
+  }
+ },
+ {
+  "id": "superdry",
+  "name": "Superdry",
+  "website": "https://www.superdry.com/",
+  "size": "Big",
+  "tier": "££",
+  "category": "High street",
+  "occasions": [
+   "Weekend",
+   "Pub"
+  ],
+  "notes": "Casual and outerwear focus",
+  "affiliate": {
+   "network": "Rakuten",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": "https://www.affilitizer.com/programs/superdry.com",
+   "howToApply": "Apply via Rakuten Advertising (Superdry UK)",
+   "source": "https://www.affilitizer.com/programs/superdry.com"
+  }
+ },
+ {
+  "id": "tateossian",
+  "name": "Tateossian",
+  "website": "https://www.tateossian.com",
+  "size": "Small",
+  "tier": "£££",
+  "category": "Accessories",
+  "occasions": [
+   "Wedding",
+   "Office",
+   "Date"
+  ],
+  "notes": "Cufflinks and bracelets; 30-day cookie",
+  "affiliate": {
+   "network": "Rakuten",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": "https://tateossian.com/pages/affiliates",
+   "howToApply": "Affiliates page with Rakuten application form",
+   "source": "https://tateossian.com/pages/affiliates"
+  }
+ },
+ {
+  "id": "ted-baker",
+  "name": "Ted Baker",
+  "website": "https://www.tedbaker.com/uk",
+  "size": "Big",
+  "tier": "£££",
+  "category": "Premium",
+  "occasions": [
+   "Wedding",
+   "Date",
+   "Office",
+   "Interview"
+  ],
+  "notes": "Relaunched online under Authentic Brands after administration; patterned shirts suit wedding guests and dates",
+  "affiliate": {
+   "network": "Partnerize",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": "https://www.tedbaker.com/uk/affiliates",
+   "howToApply": "Affiliates page on tedbaker.com (30-day cookie); programme runs on Partnerize",
+   "source": "https://www.affilitizer.com/programs/tedbaker.com"
+  }
+ },
+ {
+  "id": "the-cambridge-satchel-company",
+  "name": "The Cambridge Satchel Company",
+  "website": "https://www.cambridgesatchel.com",
+  "size": "Mid",
+  "tier": "£££",
+  "category": "Accessories",
+  "occasions": [
+   "Office",
+   "Interview",
+   "Weekend"
+  ],
+  "notes": "British leather satchels and laptop bags",
+  "affiliate": {
+   "network": "Awin",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": "Up to 6%",
+   "applyUrl": "https://www.cambridgesatchel.com/pages/affiliates",
+   "howToApply": "Affiliates page links to the Awin merchant profile (UK, ID 7741)",
+   "source": "https://www.cambridgesatchel.com/pages/affiliates"
+  }
+ },
+ {
+  "id": "the-north-face",
+  "name": "The North Face",
+  "website": "https://www.thenorthface.co.uk/",
+  "size": "Big",
+  "tier": "££",
+  "category": "Outdoor & heritage",
+  "occasions": [
+   "Weekend",
+   "Pub"
+  ],
+  "notes": "Outerwear staple for casual weekend looks",
+  "affiliate": {
+   "network": "CJ",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": "https://www.affilitizer.com/programs/thenorthface.co.uk",
+   "howToApply": "Apply to The North Face UK on CJ",
+   "source": "https://www.affilitizer.com/programs/thenorthface.co.uk"
+  }
+ },
+ {
+  "id": "timberland",
+  "name": "Timberland",
+  "website": "https://www.timberland.co.uk",
+  "size": "Big",
+  "tier": "£££",
+  "category": "Outdoor & heritage",
+  "occasions": [
+   "Weekend",
+   "Pub"
+  ],
+  "notes": "Yellow 6-inch boots and boat shoes for casual weekends",
+  "affiliate": {
+   "network": "Rakuten",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": "https://www.affilitizer.com/programs/timberland.co.uk",
+   "howToApply": "Apply via Rakuten Advertising (Timberland UK)",
+   "source": "https://www.affilitizer.com/programs/timberland.co.uk"
+  }
+ },
+ {
+  "id": "tk-maxx",
+  "name": "TK Maxx",
+  "website": "https://www.tkmaxx.com/uk/en/",
+  "size": "Big",
+  "tier": "£",
+  "category": "Retailer",
+  "occasions": [
+   "Weekend",
+   "Office",
+   "Pub",
+   "Date"
+  ],
+  "notes": "Discounted designer menswear; stock changes constantly",
+  "affiliate": {
+   "network": "Rakuten",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": null,
+   "howToApply": "Apply via Rakuten Advertising (listed as exclusive)",
+   "source": "https://www.affilitizer.com/programs/tkmaxx.com"
+  }
+ },
+ {
+  "id": "tog24",
+  "name": "Tog24",
+  "website": "https://www.tog24.com/",
+  "size": "Mid",
+  "tier": "££",
+  "category": "Outdoor & heritage",
+  "occasions": [
+   "Weekend",
+   "Pub"
+  ],
+  "notes": "Yorkshire outdoor brand; short 7-day cookie",
+  "affiliate": {
+   "network": "Webgains",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": "6% new, 4% existing",
+   "applyUrl": "https://www.webgains.com/front/publisher/program/view/programID/306603",
+   "howToApply": "Sign up on Webgains (programme 306603), linked from Tog24's Affiliate Partners page",
+   "source": "https://www.tog24.com/corporate-sales"
+  }
+ },
+ {
+  "id": "tommy-hilfiger",
+  "name": "Tommy Hilfiger",
+  "website": "https://uk.tommy.com/",
+  "size": "Big",
+  "tier": "££",
+  "category": "Premium",
+  "occasions": [
+   "Weekend",
+   "Date",
+   "Office"
+  ],
+  "notes": "PVH brand (sister to Calvin Klein, which is on Partnerize); network may have changed",
+  "affiliate": {
+   "network": "Awin",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": "https://internetretailing.net/tommy-hilfiger-launches-uk-affiliate-campaign-8274",
+   "howToApply": "Search Awin for Tommy Hilfiger UK; the only source found is a 2011 launch report, so confirm first",
+   "source": "https://internetretailing.net/tommy-hilfiger-launches-uk-affiliate-campaign-8274"
+  }
+ },
+ {
+  "id": "turnbull-asser",
+  "name": "Turnbull & Asser",
+  "website": "https://www.turnbullandasser.co.uk/",
+  "size": "Small",
+  "tier": "£££",
+  "category": "Tailoring",
+  "occasions": [
+   "Wedding",
+   "Interview",
+   "Office"
+  ],
+  "notes": "Jermyn Street shirtmaker; top end for weddings",
+  "affiliate": {
+   "network": "Awin",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": "https://www.affilitizer.com/programs/turnbullandasser.co.uk",
+   "howToApply": "Apply via Awin (UK programme since Sep 2026); also on Rakuten",
+   "source": "https://www.affilitizer.com/programs/turnbullandasser.co.uk"
+  }
+ },
+ {
+  "id": "tusting",
+  "name": "Tusting",
+  "website": "https://www.tusting.co.uk",
+  "size": "Small",
+  "tier": "£££",
+  "category": "Accessories",
+  "occasions": [
+   "Weekend",
+   "Office"
+  ],
+  "notes": "Handmade-in-UK leather holdalls and weekend bags",
+  "affiliate": {
+   "network": "Awin",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": "https://ui.awin.com/merchant-profile/123482",
+   "howToApply": "Apply via Awin advertiser profile (ID 123482)",
+   "source": "https://ui.awin.com/merchant-profile/123482"
+  }
+ },
+ {
+  "id": "twisted-tailor",
+  "name": "Twisted Tailor",
+  "website": "https://www.twistedtailor.com/",
+  "size": "Small",
+  "tier": "££",
+  "category": "Tailoring",
+  "occasions": [
+   "Wedding",
+   "Interview",
+   "Date",
+   "Office"
+  ],
+  "notes": "Slim-fit suits £199-£314; good for weddings",
+  "affiliate": {
+   "network": "None found",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": "https://www.twistedtailor.com/",
+   "howToApply": "Email hello@twistedtailor.com (listed on site); 'Media & Stylists' page in footer",
+   "source": "https://www.twistedtailor.com/"
+  }
+ },
+ {
+  "id": "uniqlo",
+  "name": "Uniqlo",
+  "website": "https://www.uniqlo.com/uk/en/",
+  "size": "Big",
+  "tier": "£",
+  "category": "High street",
+  "occasions": [
+   "Weekend",
+   "Office",
+   "Pub"
+  ],
+  "notes": "Closed to new affiliates at present; check back later. Strong basics and knitwear",
+  "affiliate": {
+   "network": "Awin",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": "3%",
+   "applyUrl": "https://ui.awin.com/merchant-profile/6771",
+   "howToApply": "Awin advertiser profile (ID 6771). The profile says Uniqlo is not taking on new publishers right now",
+   "source": "https://ui.awin.com/merchant-profile-terms/6771"
+  }
+ },
+ {
+  "id": "universal-works",
+  "name": "Universal Works",
+  "website": "https://universalworks.com/",
+  "size": "Small",
+  "tier": "££",
+  "category": "Independent",
+  "occasions": [
+   "Weekend",
+   "Pub"
+  ],
+  "notes": "Nottingham workwear brand",
+  "affiliate": {
+   "network": "None found",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": "https://universalworks.com/pages/opportunities",
+   "howToApply": "No affiliate programme found; phone +44 (0)115 924 9363 (listed on their site)",
+   "source": "https://universalworks.com/pages/opportunities"
+  }
+ },
+ {
+  "id": "urban-outfitters",
+  "name": "Urban Outfitters",
+  "website": "https://www.urbanoutfitters.com/en-gb/",
+  "size": "Big",
+  "tier": "£",
+  "category": "Retailer",
+  "occasions": [
+   "Weekend",
+   "Pub",
+   "Date"
+  ],
+  "notes": "Youthful multi-brand plus own label; confirm which network covers the UK",
+  "affiliate": {
+   "network": "Rakuten",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": "https://www.urbanoutfitters.com/en-gb/creator",
+   "howToApply": "Search for Urban Outfitters on Rakuten; an 'Urban Outfitters (EU)' campaign is also on Daisycon. They also run a creator programme",
+   "source": "https://www.affilitizer.com/programs/urbanoutfitters.com"
+  }
+ },
+ {
+  "id": "uskees",
+  "name": "Uskees",
+  "website": "https://uskees.com/",
+  "size": "Small",
+  "tier": "££",
+  "category": "Independent",
+  "occasions": [
+   "Weekend",
+   "Pub"
+  ],
+  "notes": "Sustainable workwear, shirts £80-£120",
+  "affiliate": {
+   "network": "None found",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": "https://uskees.com/pages/contact-us",
+   "howToApply": "Contact form on site; separate wholesale enquiry page",
+   "source": "https://uskees.com/"
+  }
+ },
+ {
+  "id": "very",
+  "name": "Very",
+  "website": "https://www.very.co.uk/",
+  "size": "Big",
+  "tier": "£",
+  "category": "Retailer",
+  "occasions": [
+   "Weekend",
+   "Office",
+   "Pub"
+  ],
+  "notes": "Mass-market multi-brand; good for the £ tier",
+  "affiliate": {
+   "network": "Awin",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": "https://ui.awin.com/merchant-profile/3090",
+   "howToApply": "Apply via Awin advertiser profile (ID 3090); rates are bespoke by promotion type",
+   "source": "https://ui.awin.com/merchant-profile/3090"
+  }
+ },
+ {
+  "id": "walker-slater",
+  "name": "Walker Slater",
+  "website": "https://www.walkerslater.com/",
+  "size": "Small",
+  "tier": "£££",
+  "category": "Tailoring",
+  "occasions": [
+   "Wedding",
+   "Office",
+   "Date"
+  ],
+  "notes": "Edinburgh tweed tailoring; strong for autumn/winter weddings",
+  "affiliate": {
+   "network": "None found",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": "https://www.walkerslater.com/",
+   "howToApply": "Contact via site",
+   "source": "https://www.walkerslater.com/"
+  }
+ },
+ {
+  "id": "wax-london",
+  "name": "Wax London",
+  "website": "https://waxlondon.com/",
+  "size": "Small",
+  "tier": "££",
+  "category": "Independent",
+  "occasions": [
+   "Weekend",
+   "Pub",
+   "Date"
+  ],
+  "notes": "Commission not published and said to be negotiable",
+  "affiliate": {
+   "network": "Awin",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": "https://linkclicky.com/affiliate-program/wax-london/",
+   "howToApply": "Apply via Awin advertiser profile",
+   "source": "https://linkclicky.com/affiliate-program/wax-london/"
+  }
+ },
+ {
+  "id": "weird-fish",
+  "name": "Weird Fish",
+  "website": "https://www.weirdfish.co.uk/",
+  "size": "Mid",
+  "tier": "£",
+  "category": "High street",
+  "occasions": [
+   "Weekend",
+   "Pub"
+  ],
+  "notes": "Relaxed Cotswolds casualwear",
+  "affiliate": {
+   "network": "Awin",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": "Up to 6%",
+   "applyUrl": "https://ui.awin.com/merchant-profile/6069",
+   "howToApply": "Apply via Awin (ID 6069); managed by Conversion Digital (contact on the Awin profile)",
+   "source": "https://ui.awin.com/merchant-profile/6069"
+  }
+ },
+ {
+  "id": "whistles-men",
+  "name": "Whistles Men",
+  "website": "https://www.whistles.com/",
+  "size": "Mid",
+  "tier": "££",
+  "category": "Premium",
+  "occasions": [
+   "Date",
+   "Office",
+   "Weekend"
+  ],
+  "notes": "Small menswear range alongside womenswear",
+  "affiliate": {
+   "network": "Partnerize",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": "https://www.affilitizer.com/programs/whistles.com",
+   "howToApply": "Apply via Partnerize (Whistles Global, covers GB/IE/US); also on Rakuten",
+   "source": "https://www.affilitizer.com/programs/whistles.com"
+  }
+ },
+ {
+  "id": "white-stuff",
+  "name": "White Stuff",
+  "website": "https://www.whitestuff.com/",
+  "size": "Mid",
+  "tier": "££",
+  "category": "High street",
+  "occasions": [
+   "Weekend",
+   "Pub"
+  ],
+  "notes": "Relaxed casual, prints and knits",
+  "affiliate": {
+   "network": "Awin",
+   "status": "not-applied",
+   "advertiserId": null,
+   "trackingTemplate": null,
+   "commission": null,
+   "applyUrl": "https://www.affilitizer.com/programs/whitestuff.com",
+   "howToApply": "Apply via Awin advertiser profile",
+   "source": "https://www.affilitizer.com/programs/whitestuff.com"
+  }
+ }
+]
