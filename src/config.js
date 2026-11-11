@@ -31,8 +31,15 @@ export const config = {
   webgainsCampaignId: env('WEBGAINS_CAMPAIGN_ID'),
   skimlinksSiteId: env('SKIMLINKS_SITE_ID'),
 
-  // Where click logs go. On most hosts the disk is wiped on each deploy, so treat this as short-term.
-  clickLogFile: env('CLICK_LOG_FILE', path.join(ROOT, 'data', 'clicks.log')),
+  // Where we keep click logs, usage counts and email sign-ups. On Railway, mount a volume and point DATA_DIR at it
+  // (e.g. /data), otherwise these files are wiped on every deploy.
+  dataDir: env('DATA_DIR', path.join(ROOT, 'data')),
+  get clickLogFile() { return env('CLICK_LOG_FILE', path.join(this.dataDir, 'clicks.log')); },
+  get statsFile() { return path.join(this.dataDir, 'stats.json'); },
+  get subscribersFile() { return path.join(this.dataDir, 'subscribers.jsonl'); },
+
+  // Password for /admin (usage counts and the sign-up list). Leave blank to switch /admin off.
+  adminPassword: env('ADMIN_PASSWORD'),
   catalogueFile: env('CATALOGUE_FILE', path.join(ROOT, 'data', 'catalogue.json')),
 
   maxUploadBytes: 6 * 1024 * 1024,

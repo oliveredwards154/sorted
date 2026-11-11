@@ -1,0 +1,81 @@
+{
+  "pub": {
+    "slug": "the-pub",
+    "title": "What to wear to the pub",
+    "description": "What men should wear to the pub: easy, smart-casual outfits built around an overshirt, a good jumper or a tweed jacket, with pieces from UK shops.",
+    "intro": "The pub is the easiest dress code there is, which is why it's easy to get slightly wrong. Aim for one good layer over something simple, jeans or relaxed trousers, and shoes you can stand in all evening.",
+    "tips": [
+      "Build around one layer: an overshirt, a chunky jumper or a tweed jacket. Everything else stays plain.",
+      "Jeans are fine. Mid-wash or dark-wash, no rips, and the right length so they don't bunch over your shoes.",
+      "White leather trainers or brown boots both work. Skip running trainers and anything you'd wear to the gym.",
+      "Country pub in winter? Go for knitwear and boots. Beer garden in summer? A T-shirt and an open overshirt."
+    ],
+    "avoid": "Suits, logo-heavy sportswear and anything brand new and stiff. It should look like you'd have worn it anyway."
+  },
+  "wedding": {
+    "slug": "a-wedding",
+    "title": "What to wear to a wedding as a guest",
+    "description": "What men should wear to a wedding as a guest: suits, ties, shoes and summer or beach alternatives, with pieces from UK shops at three price levels.",
+    "intro": "As a guest your job is to look sharp without competing with the groom. A well-fitting suit covers most weddings. Check the invitation for the dress code, then use the looks below to pick a direction.",
+    "tips": [
+      "Navy, grey and blue suits work almost everywhere. Save black for evening and black-tie events.",
+      "Fit matters more than price. A cheaper suit taken up at the sleeves and trousers looks better than an expensive one that doesn't fit.",
+      "Brown shoes with navy or blue; black shoes with charcoal or black. Polish them the night before.",
+      "Summer or beach wedding? A navy blazer with a linen shirt and loafers is smart enough without the heat.",
+      "\"Smart casual\" on the invitation still means a jacket. You can lose the tie."
+    ],
+    "avoid": "Anything white or cream head to toe, novelty ties and matching the groomsmen's outfit by accident."
+  },
+  "interview": {
+    "slug": "a-job-interview",
+    "title": "What to wear to a job interview",
+    "description": "What men should wear to a job interview, from a classic dark suit to smart-casual for creative and tech roles, with pieces from UK shops.",
+    "intro": "Dress one step smarter than the people who already work there. If you're not sure what that is, look at the company's own photos and social media, and when in doubt, wear the suit.",
+    "tips": [
+      "Corporate roles (law, finance, consulting): a navy or dark suit, white shirt, plain tie and black Oxfords.",
+      "Office roles with a relaxed dress code: a blazer, an Oxford shirt and smart trousers, no tie needed.",
+      "Creative and tech roles: a blazer over a plain shirt with dark jeans is usually enough. Clean shoes still matter.",
+      "Try everything on a few days before. You want to be thinking about the questions, not your collar."
+    ],
+    "avoid": "Loud patterns, scuffed shoes and anything you can't sit comfortably in for an hour."
+  },
+  "casual": {
+    "slug": "the-weekend",
+    "title": "What to wear at the weekend",
+    "description": "Easy casual weekend outfits for men: T-shirts, overshirts, jeans and knitwear that look put together without trying, with pieces from UK shops.",
+    "intro": "Weekend clothes should be comfortable, but comfortable doesn't have to mean scruffy. The trick is simple pieces that fit well, in colours that all go together.",
+    "tips": [
+      "A plain white, grey or black T-shirt that fits across the shoulders is the base of most weekend outfits.",
+      "Add one layer for interest: a denim shirt-jacket, a leather jacket or a check overshirt.",
+      "One pair of jeans in a mid or dark wash goes with everything. Black jeans are a good second pair.",
+      "Clean trainers or leather boots finish it. Keep the trainers you wear out separate from the ones you run in."
+    ],
+    "avoid": "Faded, stretched T-shirts and joggers outside the house. Keep those for the sofa."
+  },
+  "date": {
+    "slug": "a-first-date",
+    "title": "What to wear on a first date",
+    "description": "What men should wear on a first date: outfits that show some effort without looking like you've tried too hard, with pieces from UK shops.",
+    "intro": "On a first date you want to look like yourself on a good day. Pick one thing with a bit of character, like a leather jacket, a good coat or a knitted polo, and keep the rest simple and dark.",
+    "tips": [
+      "Dark, simple colours are a safe bet: black, navy, charcoal. They look smart and hide a spilt drink.",
+      "One statement piece is enough. A leather jacket or a camel coat does the work for the whole outfit.",
+      "Match the venue. Drinks in a bar: jeans and a good jacket. A nicer restaurant: trousers and a blazer.",
+      "Shoes and grooming get noticed. Clean shoes, a recent haircut and not too much aftershave."
+    ],
+    "avoid": "Wearing something for the first time. Make sure it fits and you're comfortable in it."
+  },
+  "office": {
+    "slug": "the-office",
+    "title": "What to wear to the office",
+    "description": "Smart-casual office outfits for men: blazers, shirts, knitwear and trousers that work from Monday to Friday, with pieces from UK shops.",
+    "intro": "Most offices are now smart casual, which leaves a lot of room for guesswork. A blazer and good trousers are the backbone. Swap what goes underneath to dress it up or down through the week.",
+    "tips": [
+      "A navy or grey blazer goes over a shirt on Monday and a T-shirt or roll-neck on Friday.",
+      "Trousers in grey, navy or stone are more versatile than jeans, and look smarter with the same top.",
+      "Add colour through knitwear: an orange, rust or cream jumper under a blazer lifts a plain outfit.",
+      "Brown leather shoes or Derbies cover most offices. Smart white trainers work in relaxed ones."
+    ],
+    "avoid": "Shiny suits, short-sleeved formal shirts and creased anything. Five minutes with an iron is worth it."
+  }
+}

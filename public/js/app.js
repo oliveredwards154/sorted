@@ -2,6 +2,8 @@
 import { ROUNDS, pairFor, buildMix } from './style.js';
 import { fingerprintImage, similarity } from './fingerprint.js';
 import * as store from './store.js';
+import { track, pageView, trackClicks } from './track.js';
+import { enhanceSignup, signupHtml } from './signup.js';
 
 const main = document.getElementById('main');
 const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -56,6 +58,7 @@ async function render() {
   const parts = url.pathname.split('/').filter(Boolean);
   window.scrollTo(0, 0);
   updateCount();
+  pageView();
   try {
     if (!parts.length) return home();
     if (parts[0] === 'occasion') {
@@ -95,12 +98,14 @@ function home() {
         <span class="occ-name">${esc(o.name)}<span aria-hidden="true">→</span></span>
         <span class="muted">${esc(o.blurb)}</span></a>`).join('')}
     </div>
+    <a class="linkbtn" href="/what-to-wear">Or read our plain guides: what to wear to a wedding, an interview, a first date and more</a>
   </section>`;
 }
 
 /* ---------------- choose ---------------- */
 function choose(occ) {
   setTitle(occ.name);
+  track('occasion_open', occ.id);
   main.innerHTML = `<section class="section">
     <a class="back" href="/" data-link>← All occasions</a>
     <div class="head"><div class="eyebrow">${esc(occ.name)}</div><h1>How do you want to start?</h1></div>
@@ -124,6 +129,7 @@ function rounds(occ, r) {
   if (picks.length < r) return go(`/occasion/${occ.id}/rounds?r=${picks.length + 1}`, { replace: true });
   setTitle(`${occ.name}: round ${r + 1}`);
   const pair = pairFor(occ, r);
+  if (r === 0) track('rounds_start', occ.id);
   const lines = ['Two looks. Pick the one that feels most like you.', 'Nice. Two more, same again.', 'Last round. Then we put your style together.'];
   main.innerHTML = `<section class="section">
     <a class="back" href="${r ? `/occasion/${occ.id}/rounds?r=${r}` : `/occasion/${occ.id}`}" data-link>← ${r ? `Round ${r}` : 'Back'}</a>
@@ -144,6 +150,7 @@ function rounds(occ, r) {
   </section>`;
   main.querySelectorAll('[data-pick]').forEach((b) => b.addEventListener('click', () => {
     state.picks[occ.id] = [...picks, Number(b.dataset.pick)];
+    track('round_pick', occ.id);
     savePicks();
     go(r < ROUNDS - 1 ? `/occasion/${occ.id}/rounds?r=${r + 2}` : `/occasion/${occ.id}/style`);
   }));
@@ -163,6 +170,7 @@ async function style(occ) {
   const slots = buildMix(occ, picks);
   const key = `style:${occ.id}:${picks.join(',')}`;
   const saved = store.has('styles', key);
+  track('style_done', occ.id);
   main.innerHTML = `<section class="section">
     <a class="back" href="/occasion/${occ.id}/rounds?r=${ROUNDS}" data-link>← Back to round ${ROUNDS}</a>
     <div class="row" style="flex-wrap:wrap;align-items:flex-end;gap:20px">
@@ -181,11 +189,14 @@ async function style(occ) {
         <a class="btn block" data-link href="${esc(resultsUrl({ category: it.category, text: it.name, colour: it.colour, o: occ.id, from: 'style' }))}">${esc(it.cta)}</a>
       </article>`).join('')}</div></div>`).join('')}
     <a class="linkbtn" href="/upload?o=${occ.id}" data-link>Got something similar already? Start from your own clothes</a>
+    ${signupHtml(occ.id, occ.lower)}
   </section>`;
+  enhanceSignup(main);
   document.getElementById('again').addEventListener('click', () => { state.picks[occ.id] = []; savePicks(); });
   document.getElementById('saveStyle').addEventListener('click', (e) => {
     const on = store.toggle('styles', { id: key, occasion: occ.id, picks, name: `Your ${occ.lower} style`, image: occ.looks[picks[0]].image });
     e.target.textContent = on ? 'Saved to wardrobe' : 'Save this style';
+    if (on) track('style_save', occ.id);
     toast(on ? 'Saved to your wardrobe' : 'Removed from your wardrobe');
     updateCount();
   });
@@ -259,6 +270,7 @@ function upload(occId) {
     if (f.size > 12 * 1024 * 1024) { toast('That photo is over 12MB. Try a smaller one.'); return; }
     u.dataUrl = await store.thumbnail(await readAsDataUrl(f), 1200);
     u.ai = state.config.recognition ? { state: 'thinking' } : null;
+    track('upload_start', occId || '');
     draw();
     if (!state.config.recognition) return;
     const mine = (u.token = (u.token || 0) + 1);
@@ -266,7 +278,7 @@ function upload(occId) {
       const out = await api('/api/recognise', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ image: u.dataUrl }) });
       if (mine !== u.token) return;
       if (!out.isClothing) u.ai = { state: 'notclothing' };
-      else { u.ai = { state: 'done', ...out }; if (out.category) u.category = out.category; if (out.colour) u.colour = out.colour; }
+      else { track('upload_done', occId || ''); u.ai = { state: 'done', ...out }; if (out.category) u.category = out.category; if (out.colour) u.colour = out.colour; }
     } catch (err) {
       if (mine !== u.token) return;
       u.ai = { state: 'error', message: err.body?.message || 'We couldn’t read that photo. Pick the type and colour yourself.' };
@@ -287,6 +299,7 @@ async function results(params) {
   const from = params.get('from') || '';
   const tier = params.get('tier') || '';
   const occ = state.occasions.find((o) => o.id === occId);
+  if (!tier) track('results_view', occId);
   if (!state.config.categories.includes(category)) return notFound();
   setTitle(`Shop ${text || category}`);
   const back = from === 'style' && occ ? { href: `/occasion/${occ.id}/style`, label: 'Back to your style' }
@@ -400,5 +413,6 @@ function wardrobe() {
     main.innerHTML = '<p class="lede">Sorted. couldn’t load. Check your connection and reload the page.</p>';
     return;
   }
+  trackClicks();
   render();
 })();

@@ -28,3 +28,15 @@ New → Web Service → connect the repo. Build command: none (or `npm install`,
 - [ ] `npm test` passes
 - [ ] `npm run partners:status` shows no ✗ for approved brands
 - [ ] Clicked through one shop link per network and checked it lands on the right product
+
+## Saving data between deploys (sign-ups, usage counts, click logs)
+
+The site keeps three small files: email sign-ups, daily usage counts and the shop click log. Railway wipes the app's disk on every deploy, so they live on a **volume**:
+
+1. In Railway, the service has a volume mounted at `/data`.
+2. The variable `DATA_DIR=/data` points the site at it.
+3. `ADMIN_PASSWORD` switches on **/admin** (any username, that password). It shows page views, the funnel by occasion, where visitors came from, and a CSV download of email sign-ups with each person's unsubscribe link.
+
+Usage counts need no cookie banner: nothing is stored on the visitor's device and nothing identifies them (see /cookies). If you ever add Google Analytics or similar, you'll need a consent banner first.
+
+**Sending the emails:** sign-ups are collected but nothing sends emails yet. When you have a list worth emailing, import the CSV into an email tool (for example Buttondown, MailerLite or Brevo) and put each person's unsubscribe link in the footer, or use the tool's own unsubscribe and remove people here too.

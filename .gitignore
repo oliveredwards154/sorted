@@ -9,3 +9,6 @@ data/clicks.log
 .DS_Store
 .vscode/
 .idea/
+data/stats.json
+data/stats.json.tmp
+data/subscribers.jsonl
