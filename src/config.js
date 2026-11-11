@@ -30,6 +30,18 @@ export const config = {
   cjPublisherId: env('CJ_PUBLISHER_ID'),
   webgainsCampaignId: env('WEBGAINS_CAMPAIGN_ID'),
   skimlinksSiteId: env('SKIMLINKS_SITE_ID'),
+  // Sovrn Commerce (formerly VigLink): the same idea as Skimlinks. If both are set, Skimlinks is used.
+  sovrnKey: env('SOVRN_KEY'),
+
+  // Who runs the site, shown on the privacy and about pages. A sole trader needs only a name;
+  // add the company number and registered address once you form a company.
+  operatorName: env('OPERATOR_NAME'),
+  companyNumber: env('COMPANY_NUMBER'),
+  operatorAddress: env('OPERATOR_ADDRESS'),
+
+  // Ownership-check tags that networks ask you to add to your site's <head>, as name=content pairs
+  // separated by | (e.g. "skimlinks-site-verification=abc123|google-site-verification=xyz").
+  siteVerification: env('SITE_VERIFICATION'),
 
   // Where we keep click logs, usage counts and email sign-ups. On Railway, mount a volume and point DATA_DIR at it
   // (e.g. /data), otherwise these files are wiped on every deploy.

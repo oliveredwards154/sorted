@@ -140,3 +140,11 @@ test('admin needs the password', async () => {
   assert.equal((await get('/admin/subscribers.csv')).status, 401);
   assert.match(await (await get('/robots.txt')).text(), /Disallow: \/admin/);
 });
+
+test('legal pages have no unfilled template tags', async () => {
+  for (const u of ['/privacy', '/about', '/', '/nope-404', '/privacy.html']) {
+    const t = await (await get(u)).text();
+    assert.doesNotMatch(t, /\{\{/, u);
+  }
+  assert.match(await (await get('/privacy')).text(), /\[OPERATOR NAME\]/, 'stays obvious until OPERATOR_NAME is set');
+});

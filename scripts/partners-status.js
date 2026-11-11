@@ -8,7 +8,7 @@ import { buildAffiliateLink } from '../src/affiliate.js';
 
 const networks = {
   Awin: config.awinPublisherId, Rakuten: config.rakutenSiteId, CJ: config.cjPublisherId,
-  Webgains: config.webgainsCampaignId, Skimlinks: config.skimlinksSiteId,
+  Webgains: config.webgainsCampaignId, Skimlinks: config.skimlinksSiteId, Sovrn: config.sovrnKey,
 };
 console.log('\nNetworks');
 for (const [n, v] of Object.entries(networks)) console.log(`  ${v ? '✓' : '·'} ${n.padEnd(11)} ${v ? 'publisher ID set' : 'not set up'}`);

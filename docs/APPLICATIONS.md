@@ -43,11 +43,33 @@ To show this brand's products inside complete outfits for specific occasions, wi
 
 ## Contact details
 
-- Company: [COMPANY NAME LTD], company number [NUMBER]
-- Address: [REGISTERED ADDRESS]
-- Contact: [NAME], [hello@your-domain]
-- VAT: [Not registered / VAT number]
+Starting as a sole trader (no company yet):
+
+- Account type: **Individual / sole trader** (not company)
+- Name: [the founder who holds the account]
+- Address: [their address; networks need it for payment and tax, it isn't shown publicly]
+- Contact: [hello@your-domain]
+- VAT: **Not registered**
+- Tax ID / UTR: not needed to sign up. Register as self-employed with HMRC once income passes the £1,000 trading allowance.
+
+Once you form a company, change the account to the company's name, number and address in each network.
 
 ## Payment details
 
-Awin, Rakuten and the others pay to a business bank account. Have the account name, sort code and account number ready, in the company's name. Don't paste these into the launch or setup trackers.
+Networks pay into one bank account. While you're a sole trader, use a separate sole-trader account in the account holder's name (Monzo, Starling and others offer free ones). Don't paste bank details into the launch or setup trackers.
+
+## Order to sign up
+
+1. **Domain and email** first. Every network checks the site at its own address.
+2. **Skimlinks** (or Sovrn Commerce, not both). One approval covers thousands of shops, so every shop link earns from day one. Free; they keep about a quarter of the commission.
+3. **Awin**. £5 deposit, refunded with the first payout. Then apply to brands from the launch hub.
+4. Rakuten, CJ, Impact, Webgains as you need them (free).
+
+## Skimlinks / Sovrn specifics
+
+- **Site URL:** [https://your-domain]
+- **How will you use links?** Product links in outfit recommendations, created server-side (we don't use their JavaScript). Every link is labelled "Ad".
+- **Traffic:** UK, organic search and social. Pre-launch numbers are fine to state honestly.
+- After approval, copy your **Skimlinks Publisher/site ID** (Skimlinks) or **API key** (Sovrn) into Railway as `SKIMLINKS_SITE_ID` or `SOVRN_KEY`.
+- If they ask you to verify the site with a meta tag, put it in Railway as `SITE_VERIFICATION`, e.g. `skimlinks-site-verification=abc123`. No code change needed.
+- Once live, click a shop link on the site and check it goes through `go.redirectingat.com` (Skimlinks) or `redirect.viglink.com` (Sovrn).

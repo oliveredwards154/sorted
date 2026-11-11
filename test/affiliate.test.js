@@ -61,3 +61,15 @@ test('withUtm keeps existing UTM tags and survives bad URLs', () => {
   assert.equal(new URL(withUtm('https://a.com/?utm_source=x')).searchParams.get('utm_source'), 'x');
   assert.equal(withUtm('not a url'), 'not a url');
 });
+
+test('Sovrn catches clicks when set, but Skimlinks wins if both are', () => {
+  const pending = { affiliate: { network: 'Awin', status: 'applied' } };
+  const l = buildAffiliateLink(dest, pending, { ...ids, sovrnKey: 'k123' }, 'ref-1');
+  assert.equal(l.network, 'Sovrn');
+  const u = new URL(l.url);
+  assert.equal(u.hostname, 'redirect.viglink.com');
+  assert.equal(u.searchParams.get('key'), 'k123');
+  assert.equal(u.searchParams.get('cuid'), 'ref-1');
+  assert.equal(u.searchParams.get('u'), dest);
+  assert.equal(buildAffiliateLink(dest, pending, { ...ids, sovrnKey: 'k', skimlinksSiteId: 's' }).network, 'Skimlinks');
+});

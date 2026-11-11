@@ -75,5 +75,9 @@ export function buildAffiliateLink(destination, brand, ids, clickRef = '') {
   if (ids.skimlinksSiteId) {
     return { url: `https://go.redirectingat.com/?id=${enc(ids.skimlinksSiteId)}&xcust=${enc(String(clickRef).replace(/[^A-Za-z0-9_|]/g, '').slice(0, 50))}&url=${enc(destination)}`, tracked: true, network: 'Skimlinks' };
   }
+  // Or Sovrn Commerce. Format from Sovrn's "Create links" guide; compare with a link from your Sovrn dashboard.
+  if (ids.sovrnKey) {
+    return { url: `https://redirect.viglink.com/?key=${enc(ids.sovrnKey)}&cuid=${enc(String(clickRef).replace(/[^A-Za-z0-9_-]/g, '').slice(0, 32))}&u=${enc(destination)}`, tracked: true, network: 'Sovrn' };
+  }
   return direct;
 }

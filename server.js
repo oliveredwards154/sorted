@@ -10,6 +10,7 @@ import { buildAffiliateLink } from './src/affiliate.js';
 import { recognise } from './src/recognise.js';
 import { CATEGORIES, COLOURS } from './src/classify.js';
 import { renderGuide, renderGuideIndex, renderMessage, guidePath, guides } from './src/pages.js';
+import { finishPage } from './src/html.js';
 import { createStats, createSubscribers, validEmail, refHost, toCsv } from './src/datastore.js';
 
 const stats = createStats(config.statsFile);
@@ -80,6 +81,18 @@ const clientIp = (req) => String(req.headers['x-forwarded-for'] || req.socket.re
 
 async function logClick(entry) {
   try { await appendFile(config.clickLogFile, JSON.stringify(entry) + '\n'); } catch { /* logging must never block a redirect */ }
+}
+
+// HTML pages get their placeholders filled and verification tags added (see src/html.js).
+const pageCache = new Map();
+async function servePage(res, file, status = 200) {
+  let body = pageCache.get(file);
+  if (!body) {
+    try { body = finishPage(await readFile(file, 'utf8')); } catch { return false; }
+    pageCache.set(file, body);
+  }
+  send(res, status, body, { 'content-type': TYPES['.html'], 'cache-control': 'no-cache' });
+  return true;
 }
 
 async function serveFile(res, file, cacheSeconds = 0) {
@@ -239,16 +252,16 @@ async function handle(req, res) {
   }
 
   // ---- Pages and static files ----
-  if (PAGES[p]) return (await serveFile(res, path.join(PUBLIC, PAGES[p]))) || send(res, 404, 'Not found');
-  if (APP_ROUTES.test(p)) return serveFile(res, path.join(PUBLIC, 'index.html'));
+  if (PAGES[p]) return (await servePage(res, path.join(PUBLIC, PAGES[p]))) || send(res, 404, 'Not found');
+  if (APP_ROUTES.test(p) || p === '/index.html') return servePage(res, path.join(PUBLIC, 'index.html'));
 
   const file = path.normalize(path.join(PUBLIC, decodeURIComponent(p)));
   if (!file.startsWith(PUBLIC + path.sep)) return send(res, 404, 'Not found', { 'content-type': TYPES['.txt'] });
   const longCache = p.startsWith('/images/') ? 86400 * 7 : 0;
-  if (await serveFile(res, file, longCache)) return;
+  if (file.endsWith('.html') ? await servePage(res, file) : await serveFile(res, file, longCache)) return;
 
-  const notFound = await readFile(path.join(PUBLIC, '404.html')).catch(() => null);
-  return send(res, 404, notFound || 'Not found', { 'content-type': TYPES['.html'] });
+  if (await servePage(res, path.join(PUBLIC, '404.html'), 404)) return;
+  return send(res, 404, 'Not found', { 'content-type': TYPES['.txt'] });
 }
 
 function adminPage() {

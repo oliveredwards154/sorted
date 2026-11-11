@@ -4,6 +4,7 @@ import { readFileSync } from 'node:fs';
 import path from 'node:path';
 import { ROOT, config } from './config.js';
 import { occasions } from './catalogue.js';
+import { verificationMeta } from './html.js';
 
 export const guides = JSON.parse(readFileSync(path.join(ROOT, 'data', 'guides.json'), 'utf8'));
 
@@ -29,6 +30,7 @@ function layout({ title, description, canonical, image, body, jsonLd }) {
 <meta property="og:description" content="${esc(description)}">
 ${image ? `<meta property="og:image" content="${esc(abs(image))}">` : ''}
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+${verificationMeta()}
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700&display=swap">
 <link rel="stylesheet" href="/css/site.css">
 ${jsonLd ? `<script type="application/ld+json">${JSON.stringify(jsonLd).replace(/</g, '\\u003c')}</script>` : ''}
