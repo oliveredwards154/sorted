@@ -53,6 +53,7 @@ test('a brand tracking template wins and fills {url}', () => {
 test('Skimlinks catches clicks for brands not approved yet', () => {
   const l = buildAffiliateLink(dest, { affiliate: { network: 'Awin', status: 'applied' } }, { ...ids, skimlinksSiteId: '555X' });
   assert.equal(l.network, 'Skimlinks');
+  assert.equal(new URL(l.url).hostname, 'go.redirectingat.com');
   assert.equal(new URL(l.url).searchParams.get('url'), dest);
 });
 

@@ -18,6 +18,8 @@ You need a live site on your own domain first: networks review it before approvi
 
 When describing the site in applications, say: "Sorted. is a UK menswear outfit site. Users choose an occasion and we show complete outfits with links to buy each piece. Traffic is content and social, no paid search on brand terms, no voucher or cashback."
 
+**Rakuten is moving brands to Impact in phases.** If a Rakuten brand tells you it has moved, set its network to Impact and use a tracking template (step 3). Old Rakuten links keep redirecting for at least a year.
+
 ## 2. Apply to each brand
 
 Use the Brands tab in the launch hub to work through the list. In the code, update the brand in `data/brands.json` as things change:
@@ -64,7 +66,7 @@ Every approved brand should show ✓. A ✗ means links for that brand are not b
 Approved brands give you product feeds. These replace the preview items with real products, prices and buy links.
 
 **Awin:** Toolbox → Create-a-Feed → pick the approved brands, CSV format, include these columns:
-`aw_product_id, product_name, merchant_id, merchant_name, aw_deep_link, merchant_deep_link, search_price, currency, aw_image_url, merchant_category, category_name, colour, in_stock, brand_name`.
+`aw_product_id, product_name, merchant_id, merchant_name, aw_deep_link, deep_link, search_price, currency, aw_image_url, merchant_category, category_name, colour, in_stock, brand_name`.
 Copy the download URL into `AWIN_FEED_URLS` (space-separated for several). It contains your API key, so it lives only in `.env` and your host's settings.
 
 **Other networks:** copy `data/feeds.example.json` to `data/feeds.json`, add one entry per feed, and map its column names (check the header row of a downloaded file; the example's names are only a guide). Put each download URL in the env var the entry names.

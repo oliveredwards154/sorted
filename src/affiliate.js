@@ -5,7 +5,9 @@
 // setting affiliate.status to "approved" and filling in affiliate.advertiserId.
 // Until then we send people straight to the shop with UTM tags, so nothing breaks.
 //
-// The link formats below are the standard deep-link formats each network documents. Check them
+// Checked against network docs (Nov 2026): Awin and Impact confirmed; Webgains and Skimlinks parameter
+// names confirmed; Rakuten (u1 confirmed), CJ and Partnerize formats from widely used third-party references.
+// Check them
 // against the link your network dashboard generates for one product before going live; if a brand
 // gives you its own format, put it in affiliate.trackingTemplate with {url} where the encoded
 // destination goes, and it wins over everything here.
@@ -71,7 +73,7 @@ export function buildAffiliateLink(destination, brand, ids, clickRef = '') {
 
   // Not approved yet: optionally let Skimlinks monetise the click for us while we wait.
   if (ids.skimlinksSiteId) {
-    return { url: `https://go.skimresources.com/?id=${enc(ids.skimlinksSiteId)}&xs=1&xcust=${enc(clickRef)}&url=${enc(destination)}`, tracked: true, network: 'Skimlinks' };
+    return { url: `https://go.redirectingat.com/?id=${enc(ids.skimlinksSiteId)}&xcust=${enc(String(clickRef).replace(/[^A-Za-z0-9_|]/g, '').slice(0, 50))}&url=${enc(destination)}`, tracked: true, network: 'Skimlinks' };
   }
   return direct;
 }

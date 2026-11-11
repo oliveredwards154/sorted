@@ -115,7 +115,7 @@ async function handle(req, res) {
     const product = getProduct(m[1]);
     if (!product || !product.url) return send(res, 404, 'That product is no longer available.', { 'content-type': TYPES['.txt'] });
     const brand = product.brandId ? brandById.get(product.brandId) : null;
-    const ref = randomUUID().slice(0, 12);
+    const ref = randomUUID().replace(/-/g, '').slice(0, 12);
     const link = product.affiliateUrl && !brand?.affiliate?.trackingTemplate
       ? { url: product.affiliateUrl, tracked: true, network: product.network }
       : buildAffiliateLink(product.url, brand, config, ref);
@@ -126,7 +126,7 @@ async function handle(req, res) {
   if (m) {
     const brand = brandById.get(m[1]);
     if (!brand) return send(res, 404, 'Unknown shop.', { 'content-type': TYPES['.txt'] });
-    const ref = randomUUID().slice(0, 12);
+    const ref = randomUUID().replace(/-/g, '').slice(0, 12);
     const link = buildAffiliateLink(brand.website, brand, config, ref);
     logClick({ t: new Date().toISOString(), ref, kind: 'brand', brand: brand.id, network: link.network, tracked: link.tracked, occasion: url.searchParams.get('o') || null });
     return send(res, 302, '', { location: link.url, 'cache-control': 'no-store', 'x-robots-tag': 'noindex' });
